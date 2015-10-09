@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4BB2EC21BB192E100E7595A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB2EC11BB192E100E7595A /* AppDelegate.swift */; };
+		A4BB2EC41BB192E100E7595A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB2EC31BB192E100E7595A /* ViewController.swift */; };
+		A4BB2EC71BB192E200E7595A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BB2EC51BB192E200E7595A /* Main.storyboard */; };
+		A4BB2EC91BB192E200E7595A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BB2EC81BB192E200E7595A /* Assets.xcassets */; };
+		A4BB2ECC1BB192E200E7595A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BB2ECA1BB192E200E7595A /* LaunchScreen.storyboard */; };
+		A4BB2ED71BB192E200E7595A /* ZegiestowskyTipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB2ED61BB192E200E7595A /* ZegiestowskyTipCalculatorTests.swift */; };
+		A4BB2EE21BB192E200E7595A /* ZegiestowskyTipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB2EE11BB192E200E7595A /* ZegiestowskyTipCalculatorUITests.swift */; };
+		A4BB2EF01BB1988F00E7595A /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB2EEF1BB1988F00E7595A /* TipCalculatorModel.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4BB2ED31BB192E200E7595A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4BB2EB61BB192E100E7595A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4BB2EBD1BB192E100E7595A;
+			remoteInfo = ZegiestowskyTipCalculator;
+		};
+		A4BB2EDE1BB192E200E7595A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4BB2EB61BB192E100E7595A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4BB2EBD1BB192E100E7595A;
+			remoteInfo = ZegiestowskyTipCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4BB2EBE1BB192E100E7595A /* ZegiestowskyTipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZegiestowskyTipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BB2EC11BB192E100E7595A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4BB2EC31BB192E100E7595A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4BB2EC61BB192E200E7595A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4BB2EC81BB192E200E7595A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4BB2ECB1BB192E200E7595A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4BB2ECD1BB192E200E7595A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BB2ED21BB192E200E7595A /* ZegiestowskyTipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskyTipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BB2ED61BB192E200E7595A /* ZegiestowskyTipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskyTipCalculatorTests.swift; sourceTree = "<group>"; };
+		A4BB2ED81BB192E200E7595A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BB2EDD1BB192E200E7595A /* ZegiestowskyTipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskyTipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BB2EE11BB192E200E7595A /* ZegiestowskyTipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskyTipCalculatorUITests.swift; sourceTree = "<group>"; };
+		A4BB2EE31BB192E200E7595A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BB2EEF1BB1988F00E7595A /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TipCalculatorModel.swift; path = ../TipCalculatorModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4BB2EBB1BB192E100E7595A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB2ECF1BB192E200E7595A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB2EDA1BB192E200E7595A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4BB2EB51BB192E100E7595A = {
+			isa = PBXGroup;
+			children = (
+				A4BB2EC01BB192E100E7595A /* ZegiestowskyTipCalculator */,
+				A4BB2ED51BB192E200E7595A /* ZegiestowskyTipCalculatorTests */,
+				A4BB2EE01BB192E200E7595A /* ZegiestowskyTipCalculatorUITests */,
+				A4BB2EBF1BB192E100E7595A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4BB2EBF1BB192E100E7595A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB2EBE1BB192E100E7595A /* ZegiestowskyTipCalculator.app */,
+				A4BB2ED21BB192E200E7595A /* ZegiestowskyTipCalculatorTests.xctest */,
+				A4BB2EDD1BB192E200E7595A /* ZegiestowskyTipCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4BB2EC01BB192E100E7595A /* ZegiestowskyTipCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB2EEF1BB1988F00E7595A /* TipCalculatorModel.swift */,
+				A4BB2EC11BB192E100E7595A /* AppDelegate.swift */,
+				A4BB2EC31BB192E100E7595A /* ViewController.swift */,
+				A4BB2EC51BB192E200E7595A /* Main.storyboard */,
+				A4BB2EC81BB192E200E7595A /* Assets.xcassets */,
+				A4BB2ECA1BB192E200E7595A /* LaunchScreen.storyboard */,
+				A4BB2ECD1BB192E200E7595A /* Info.plist */,
+			);
+			path = ZegiestowskyTipCalculator;
+			sourceTree = "<group>";
+		};
+		A4BB2ED51BB192E200E7595A /* ZegiestowskyTipCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB2ED61BB192E200E7595A /* ZegiestowskyTipCalculatorTests.swift */,
+				A4BB2ED81BB192E200E7595A /* Info.plist */,
+			);
+			path = ZegiestowskyTipCalculatorTests;
+			sourceTree = "<group>";
+		};
+		A4BB2EE01BB192E200E7595A /* ZegiestowskyTipCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB2EE11BB192E200E7595A /* ZegiestowskyTipCalculatorUITests.swift */,
+				A4BB2EE31BB192E200E7595A /* Info.plist */,
+			);
+			path = ZegiestowskyTipCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4BB2EBD1BB192E100E7595A /* ZegiestowskyTipCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BB2EE61BB192E200E7595A /* Build configuration list for PBXNativeTarget "ZegiestowskyTipCalculator" */;
+			buildPhases = (
+				A4BB2EBA1BB192E100E7595A /* Sources */,
+				A4BB2EBB1BB192E100E7595A /* Frameworks */,
+				A4BB2EBC1BB192E100E7595A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZegiestowskyTipCalculator;
+			productName = ZegiestowskyTipCalculator;
+			productReference = A4BB2EBE1BB192E100E7595A /* ZegiestowskyTipCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4BB2ED11BB192E200E7595A /* ZegiestowskyTipCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BB2EE91BB192E200E7595A /* Build configuration list for PBXNativeTarget "ZegiestowskyTipCalculatorTests" */;
+			buildPhases = (
+				A4BB2ECE1BB192E200E7595A /* Sources */,
+				A4BB2ECF1BB192E200E7595A /* Frameworks */,
+				A4BB2ED01BB192E200E7595A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4BB2ED41BB192E200E7595A /* PBXTargetDependency */,
+			);
+			name = ZegiestowskyTipCalculatorTests;
+			productName = ZegiestowskyTipCalculatorTests;
+			productReference = A4BB2ED21BB192E200E7595A /* ZegiestowskyTipCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4BB2EDC1BB192E200E7595A /* ZegiestowskyTipCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BB2EEC1BB192E200E7595A /* Build configuration list for PBXNativeTarget "ZegiestowskyTipCalculatorUITests" */;
+			buildPhases = (
+				A4BB2ED91BB192E200E7595A /* Sources */,
+				A4BB2EDA1BB192E200E7595A /* Frameworks */,
+				A4BB2EDB1BB192E200E7595A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4BB2EDF1BB192E200E7595A /* PBXTargetDependency */,
+			);
+			name = ZegiestowskyTipCalculatorUITests;
+			productName = ZegiestowskyTipCalculatorUITests;
+			productReference = A4BB2EDD1BB192E200E7595A /* ZegiestowskyTipCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4BB2EB61BB192E100E7595A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Zegiestowsky, Ashley";
+				TargetAttributes = {
+					A4BB2EBD1BB192E100E7595A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A4BB2ED11BB192E200E7595A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A4BB2EBD1BB192E100E7595A;
+					};
+					A4BB2EDC1BB192E200E7595A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A4BB2EBD1BB192E100E7595A;
+					};
+				};
+			};
+			buildConfigurationList = A4BB2EB91BB192E100E7595A /* Build configuration list for PBXProject "ZegiestowskyTipCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4BB2EB51BB192E100E7595A;
+			productRefGroup = A4BB2EBF1BB192E100E7595A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4BB2EBD1BB192E100E7595A /* ZegiestowskyTipCalculator */,
+				A4BB2ED11BB192E200E7595A /* ZegiestowskyTipCalculatorTests */,
+				A4BB2EDC1BB192E200E7595A /* ZegiestowskyTipCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4BB2EBC1BB192E100E7595A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB2ECC1BB192E200E7595A /* LaunchScreen.storyboard in Resources */,
+				A4BB2EC91BB192E200E7595A /* Assets.xcassets in Resources */,
+				A4BB2EC71BB192E200E7595A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB2ED01BB192E200E7595A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB2EDB1BB192E200E7595A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4BB2EBA1BB192E100E7595A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB2EF01BB1988F00E7595A /* TipCalculatorModel.swift in Sources */,
+				A4BB2EC41BB192E100E7595A /* ViewController.swift in Sources */,
+				A4BB2EC21BB192E100E7595A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB2ECE1BB192E200E7595A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB2ED71BB192E200E7595A /* ZegiestowskyTipCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB2ED91BB192E200E7595A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB2EE21BB192E200E7595A /* ZegiestowskyTipCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4BB2ED41BB192E200E7595A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4BB2EBD1BB192E100E7595A /* ZegiestowskyTipCalculator */;
+			targetProxy = A4BB2ED31BB192E200E7595A /* PBXContainerItemProxy */;
+		};
+		A4BB2EDF1BB192E200E7595A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4BB2EBD1BB192E100E7595A /* ZegiestowskyTipCalculator */;
+			targetProxy = A4BB2EDE1BB192E200E7595A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4BB2EC51BB192E200E7595A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4BB2EC61BB192E200E7595A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4BB2ECA1BB192E200E7595A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4BB2ECB1BB192E200E7595A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4BB2EE41BB192E200E7595A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4BB2EE51BB192E200E7595A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4BB2EE71BB192E200E7595A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZegiestowskyTipCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyTipCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4BB2EE81BB192E200E7595A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZegiestowskyTipCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyTipCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4BB2EEA1BB192E200E7595A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskyTipCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyTipCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskyTipCalculator.app/ZegiestowskyTipCalculator";
+			};
+			name = Debug;
+		};
+		A4BB2EEB1BB192E200E7595A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskyTipCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyTipCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskyTipCalculator.app/ZegiestowskyTipCalculator";
+			};
+			name = Release;
+		};
+		A4BB2EED1BB192E200E7595A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskyTipCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyTipCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskyTipCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A4BB2EEE1BB192E200E7595A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskyTipCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyTipCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskyTipCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4BB2EB91BB192E100E7595A /* Build configuration list for PBXProject "ZegiestowskyTipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BB2EE41BB192E200E7595A /* Debug */,
+				A4BB2EE51BB192E200E7595A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4BB2EE61BB192E200E7595A /* Build configuration list for PBXNativeTarget "ZegiestowskyTipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BB2EE71BB192E200E7595A /* Debug */,
+				A4BB2EE81BB192E200E7595A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4BB2EE91BB192E200E7595A /* Build configuration list for PBXNativeTarget "ZegiestowskyTipCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BB2EEA1BB192E200E7595A /* Debug */,
+				A4BB2EEB1BB192E200E7595A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4BB2EEC1BB192E200E7595A /* Build configuration list for PBXNativeTarget "ZegiestowskyTipCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BB2EED1BB192E200E7595A /* Debug */,
+				A4BB2EEE1BB192E200E7595A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4BB2EB61BB192E100E7595A /* Project object */;
+}

@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A42471241BB4357B005DCF4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42471231BB4357B005DCF4C /* AppDelegate.swift */; };
+		A42471291BB4357B005DCF4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42471271BB4357B005DCF4C /* Main.storyboard */; };
+		A424712B1BB4357B005DCF4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A424712A1BB4357B005DCF4C /* Assets.xcassets */; };
+		A424712E1BB4357B005DCF4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A424712C1BB4357B005DCF4C /* LaunchScreen.storyboard */; };
+		A42471391BB4357B005DCF4C /* GreekIslandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42471381BB4357B005DCF4C /* GreekIslandsTests.swift */; };
+		A42471441BB4357B005DCF4C /* GreekIslandsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42471431BB4357B005DCF4C /* GreekIslandsUITests.swift */; };
+		A42471521BB43EC0005DCF4C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42471511BB43EC0005DCF4C /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A42471351BB4357B005DCF4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42471181BB4357B005DCF4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A424711F1BB4357B005DCF4C;
+			remoteInfo = GreekIslands;
+		};
+		A42471401BB4357B005DCF4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42471181BB4357B005DCF4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A424711F1BB4357B005DCF4C;
+			remoteInfo = GreekIslands;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A42471201BB4357B005DCF4C /* GreekIslands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreekIslands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42471231BB4357B005DCF4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A42471281BB4357B005DCF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A424712A1BB4357B005DCF4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A424712D1BB4357B005DCF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A424712F1BB4357B005DCF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42471341BB4357B005DCF4C /* GreekIslandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreekIslandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42471381BB4357B005DCF4C /* GreekIslandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekIslandsTests.swift; sourceTree = "<group>"; };
+		A424713A1BB4357B005DCF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A424713F1BB4357B005DCF4C /* GreekIslandsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreekIslandsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42471431BB4357B005DCF4C /* GreekIslandsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekIslandsUITests.swift; sourceTree = "<group>"; };
+		A42471451BB4357B005DCF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42471511BB43EC0005DCF4C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A424711D1BB4357B005DCF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42471311BB4357B005DCF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A424713C1BB4357B005DCF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A42471171BB4357B005DCF4C = {
+			isa = PBXGroup;
+			children = (
+				A42471221BB4357B005DCF4C /* GreekIslands */,
+				A42471371BB4357B005DCF4C /* GreekIslandsTests */,
+				A42471421BB4357B005DCF4C /* GreekIslandsUITests */,
+				A42471211BB4357B005DCF4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A42471211BB4357B005DCF4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A42471201BB4357B005DCF4C /* GreekIslands.app */,
+				A42471341BB4357B005DCF4C /* GreekIslandsTests.xctest */,
+				A424713F1BB4357B005DCF4C /* GreekIslandsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A42471221BB4357B005DCF4C /* GreekIslands */ = {
+			isa = PBXGroup;
+			children = (
+				A42471511BB43EC0005DCF4C /* TableViewController.swift */,
+				A42471231BB4357B005DCF4C /* AppDelegate.swift */,
+				A42471271BB4357B005DCF4C /* Main.storyboard */,
+				A424712A1BB4357B005DCF4C /* Assets.xcassets */,
+				A424712C1BB4357B005DCF4C /* LaunchScreen.storyboard */,
+				A424712F1BB4357B005DCF4C /* Info.plist */,
+			);
+			path = GreekIslands;
+			sourceTree = "<group>";
+		};
+		A42471371BB4357B005DCF4C /* GreekIslandsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A42471381BB4357B005DCF4C /* GreekIslandsTests.swift */,
+				A424713A1BB4357B005DCF4C /* Info.plist */,
+			);
+			path = GreekIslandsTests;
+			sourceTree = "<group>";
+		};
+		A42471421BB4357B005DCF4C /* GreekIslandsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A42471431BB4357B005DCF4C /* GreekIslandsUITests.swift */,
+				A42471451BB4357B005DCF4C /* Info.plist */,
+			);
+			path = GreekIslandsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A424711F1BB4357B005DCF4C /* GreekIslands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42471481BB4357B005DCF4C /* Build configuration list for PBXNativeTarget "GreekIslands" */;
+			buildPhases = (
+				A424711C1BB4357B005DCF4C /* Sources */,
+				A424711D1BB4357B005DCF4C /* Frameworks */,
+				A424711E1BB4357B005DCF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreekIslands;
+			productName = GreekIslands;
+			productReference = A42471201BB4357B005DCF4C /* GreekIslands.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A42471331BB4357B005DCF4C /* GreekIslandsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A424714B1BB4357B005DCF4C /* Build configuration list for PBXNativeTarget "GreekIslandsTests" */;
+			buildPhases = (
+				A42471301BB4357B005DCF4C /* Sources */,
+				A42471311BB4357B005DCF4C /* Frameworks */,
+				A42471321BB4357B005DCF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A42471361BB4357B005DCF4C /* PBXTargetDependency */,
+			);
+			name = GreekIslandsTests;
+			productName = GreekIslandsTests;
+			productReference = A42471341BB4357B005DCF4C /* GreekIslandsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A424713E1BB4357B005DCF4C /* GreekIslandsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A424714E1BB4357B005DCF4C /* Build configuration list for PBXNativeTarget "GreekIslandsUITests" */;
+			buildPhases = (
+				A424713B1BB4357B005DCF4C /* Sources */,
+				A424713C1BB4357B005DCF4C /* Frameworks */,
+				A424713D1BB4357B005DCF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A42471411BB4357B005DCF4C /* PBXTargetDependency */,
+			);
+			name = GreekIslandsUITests;
+			productName = GreekIslandsUITests;
+			productReference = A424713F1BB4357B005DCF4C /* GreekIslandsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A42471181BB4357B005DCF4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Zegiestowsky, Ashley";
+				TargetAttributes = {
+					A424711F1BB4357B005DCF4C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A42471331BB4357B005DCF4C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A424711F1BB4357B005DCF4C;
+					};
+					A424713E1BB4357B005DCF4C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A424711F1BB4357B005DCF4C;
+					};
+				};
+			};
+			buildConfigurationList = A424711B1BB4357B005DCF4C /* Build configuration list for PBXProject "GreekIslands" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A42471171BB4357B005DCF4C;
+			productRefGroup = A42471211BB4357B005DCF4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A424711F1BB4357B005DCF4C /* GreekIslands */,
+				A42471331BB4357B005DCF4C /* GreekIslandsTests */,
+				A424713E1BB4357B005DCF4C /* GreekIslandsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A424711E1BB4357B005DCF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A424712E1BB4357B005DCF4C /* LaunchScreen.storyboard in Resources */,
+				A424712B1BB4357B005DCF4C /* Assets.xcassets in Resources */,
+				A42471291BB4357B005DCF4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42471321BB4357B005DCF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A424713D1BB4357B005DCF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A424711C1BB4357B005DCF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42471521BB43EC0005DCF4C /* TableViewController.swift in Sources */,
+				A42471241BB4357B005DCF4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42471301BB4357B005DCF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42471391BB4357B005DCF4C /* GreekIslandsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A424713B1BB4357B005DCF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42471441BB4357B005DCF4C /* GreekIslandsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A42471361BB4357B005DCF4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A424711F1BB4357B005DCF4C /* GreekIslands */;
+			targetProxy = A42471351BB4357B005DCF4C /* PBXContainerItemProxy */;
+		};
+		A42471411BB4357B005DCF4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A424711F1BB4357B005DCF4C /* GreekIslands */;
+			targetProxy = A42471401BB4357B005DCF4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A42471271BB4357B005DCF4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42471281BB4357B005DCF4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A424712C1BB4357B005DCF4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A424712D1BB4357B005DCF4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A42471461BB4357B005DCF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A42471471BB4357B005DCF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A42471491BB4357B005DCF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GreekIslands/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.GreekIslands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A424714A1BB4357B005DCF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GreekIslands/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.GreekIslands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A424714C1BB4357B005DCF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GreekIslandsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.GreekIslandsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreekIslands.app/GreekIslands";
+			};
+			name = Debug;
+		};
+		A424714D1BB4357B005DCF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GreekIslandsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.GreekIslandsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreekIslands.app/GreekIslands";
+			};
+			name = Release;
+		};
+		A424714F1BB4357B005DCF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GreekIslandsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.GreekIslandsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GreekIslands;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A42471501BB4357B005DCF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GreekIslandsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.GreekIslandsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GreekIslands;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A424711B1BB4357B005DCF4C /* Build configuration list for PBXProject "GreekIslands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42471461BB4357B005DCF4C /* Debug */,
+				A42471471BB4357B005DCF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42471481BB4357B005DCF4C /* Build configuration list for PBXNativeTarget "GreekIslands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42471491BB4357B005DCF4C /* Debug */,
+				A424714A1BB4357B005DCF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A424714B1BB4357B005DCF4C /* Build configuration list for PBXNativeTarget "GreekIslandsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A424714C1BB4357B005DCF4C /* Debug */,
+				A424714D1BB4357B005DCF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A424714E1BB4357B005DCF4C /* Build configuration list for PBXNativeTarget "GreekIslandsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A424714F1BB4357B005DCF4C /* Debug */,
+				A42471501BB4357B005DCF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A42471181BB4357B005DCF4C /* Project object */;
+}

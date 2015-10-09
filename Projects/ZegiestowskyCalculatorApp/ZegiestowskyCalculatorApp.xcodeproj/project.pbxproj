@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A47C95CF1BC84C5800068120 /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47C95CE1BC84C5800068120 /* CalculatorModel.swift */; settings = {ASSET_TAGS = (); }; };
+		A49C0DEC1BC366D000671406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C0DEB1BC366D000671406 /* AppDelegate.swift */; };
+		A49C0DEE1BC366D000671406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C0DED1BC366D000671406 /* ViewController.swift */; };
+		A49C0DF11BC366D000671406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49C0DEF1BC366D000671406 /* Main.storyboard */; };
+		A49C0DF31BC366D100671406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49C0DF21BC366D100671406 /* Assets.xcassets */; };
+		A49C0DF61BC366D100671406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49C0DF41BC366D100671406 /* LaunchScreen.storyboard */; };
+		A49C0E011BC366D100671406 /* ZegiestowskyCalculatorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C0E001BC366D100671406 /* ZegiestowskyCalculatorAppTests.swift */; };
+		A49C0E0C1BC366D100671406 /* ZegiestowskyCalculatorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C0E0B1BC366D100671406 /* ZegiestowskyCalculatorAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A49C0DFD1BC366D100671406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A49C0DE01BC366D000671406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A49C0DE71BC366D000671406;
+			remoteInfo = ZegiestowskyCalculatorApp;
+		};
+		A49C0E081BC366D100671406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A49C0DE01BC366D000671406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A49C0DE71BC366D000671406;
+			remoteInfo = ZegiestowskyCalculatorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A47C95CE1BC84C5800068120 /* CalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
+		A49C0DE81BC366D000671406 /* ZegiestowskyCalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZegiestowskyCalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49C0DEB1BC366D000671406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A49C0DED1BC366D000671406 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A49C0DF01BC366D000671406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A49C0DF21BC366D100671406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A49C0DF51BC366D100671406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A49C0DF71BC366D100671406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49C0DFC1BC366D100671406 /* ZegiestowskyCalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskyCalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49C0E001BC366D100671406 /* ZegiestowskyCalculatorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskyCalculatorAppTests.swift; sourceTree = "<group>"; };
+		A49C0E021BC366D100671406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49C0E071BC366D100671406 /* ZegiestowskyCalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskyCalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49C0E0B1BC366D100671406 /* ZegiestowskyCalculatorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskyCalculatorAppUITests.swift; sourceTree = "<group>"; };
+		A49C0E0D1BC366D100671406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A49C0DE51BC366D000671406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49C0DF91BC366D100671406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49C0E041BC366D100671406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A49C0DDF1BC366D000671406 = {
+			isa = PBXGroup;
+			children = (
+				A49C0DEA1BC366D000671406 /* ZegiestowskyCalculatorApp */,
+				A49C0DFF1BC366D100671406 /* ZegiestowskyCalculatorAppTests */,
+				A49C0E0A1BC366D100671406 /* ZegiestowskyCalculatorAppUITests */,
+				A49C0DE91BC366D000671406 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A49C0DE91BC366D000671406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A49C0DE81BC366D000671406 /* ZegiestowskyCalculatorApp.app */,
+				A49C0DFC1BC366D100671406 /* ZegiestowskyCalculatorAppTests.xctest */,
+				A49C0E071BC366D100671406 /* ZegiestowskyCalculatorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A49C0DEA1BC366D000671406 /* ZegiestowskyCalculatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				A47C95CE1BC84C5800068120 /* CalculatorModel.swift */,
+				A49C0DEB1BC366D000671406 /* AppDelegate.swift */,
+				A49C0DED1BC366D000671406 /* ViewController.swift */,
+				A49C0DEF1BC366D000671406 /* Main.storyboard */,
+				A49C0DF21BC366D100671406 /* Assets.xcassets */,
+				A49C0DF41BC366D100671406 /* LaunchScreen.storyboard */,
+				A49C0DF71BC366D100671406 /* Info.plist */,
+			);
+			path = ZegiestowskyCalculatorApp;
+			sourceTree = "<group>";
+		};
+		A49C0DFF1BC366D100671406 /* ZegiestowskyCalculatorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A49C0E001BC366D100671406 /* ZegiestowskyCalculatorAppTests.swift */,
+				A49C0E021BC366D100671406 /* Info.plist */,
+			);
+			path = ZegiestowskyCalculatorAppTests;
+			sourceTree = "<group>";
+		};
+		A49C0E0A1BC366D100671406 /* ZegiestowskyCalculatorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A49C0E0B1BC366D100671406 /* ZegiestowskyCalculatorAppUITests.swift */,
+				A49C0E0D1BC366D100671406 /* Info.plist */,
+			);
+			path = ZegiestowskyCalculatorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A49C0DE71BC366D000671406 /* ZegiestowskyCalculatorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A49C0E101BC366D100671406 /* Build configuration list for PBXNativeTarget "ZegiestowskyCalculatorApp" */;
+			buildPhases = (
+				A49C0DE41BC366D000671406 /* Sources */,
+				A49C0DE51BC366D000671406 /* Frameworks */,
+				A49C0DE61BC366D000671406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZegiestowskyCalculatorApp;
+			productName = ZegiestowskyCalculatorApp;
+			productReference = A49C0DE81BC366D000671406 /* ZegiestowskyCalculatorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A49C0DFB1BC366D100671406 /* ZegiestowskyCalculatorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A49C0E131BC366D100671406 /* Build configuration list for PBXNativeTarget "ZegiestowskyCalculatorAppTests" */;
+			buildPhases = (
+				A49C0DF81BC366D100671406 /* Sources */,
+				A49C0DF91BC366D100671406 /* Frameworks */,
+				A49C0DFA1BC366D100671406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A49C0DFE1BC366D100671406 /* PBXTargetDependency */,
+			);
+			name = ZegiestowskyCalculatorAppTests;
+			productName = ZegiestowskyCalculatorAppTests;
+			productReference = A49C0DFC1BC366D100671406 /* ZegiestowskyCalculatorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A49C0E061BC366D100671406 /* ZegiestowskyCalculatorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A49C0E161BC366D100671406 /* Build configuration list for PBXNativeTarget "ZegiestowskyCalculatorAppUITests" */;
+			buildPhases = (
+				A49C0E031BC366D100671406 /* Sources */,
+				A49C0E041BC366D100671406 /* Frameworks */,
+				A49C0E051BC366D100671406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A49C0E091BC366D100671406 /* PBXTargetDependency */,
+			);
+			name = ZegiestowskyCalculatorAppUITests;
+			productName = ZegiestowskyCalculatorAppUITests;
+			productReference = A49C0E071BC366D100671406 /* ZegiestowskyCalculatorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A49C0DE01BC366D000671406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Zegiestowsky, Ashley";
+				TargetAttributes = {
+					A49C0DE71BC366D000671406 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A49C0DFB1BC366D100671406 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A49C0DE71BC366D000671406;
+					};
+					A49C0E061BC366D100671406 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A49C0DE71BC366D000671406;
+					};
+				};
+			};
+			buildConfigurationList = A49C0DE31BC366D000671406 /* Build configuration list for PBXProject "ZegiestowskyCalculatorApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A49C0DDF1BC366D000671406;
+			productRefGroup = A49C0DE91BC366D000671406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A49C0DE71BC366D000671406 /* ZegiestowskyCalculatorApp */,
+				A49C0DFB1BC366D100671406 /* ZegiestowskyCalculatorAppTests */,
+				A49C0E061BC366D100671406 /* ZegiestowskyCalculatorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A49C0DE61BC366D000671406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49C0DF61BC366D100671406 /* LaunchScreen.storyboard in Resources */,
+				A49C0DF31BC366D100671406 /* Assets.xcassets in Resources */,
+				A49C0DF11BC366D000671406 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49C0DFA1BC366D100671406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49C0E051BC366D100671406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A49C0DE41BC366D000671406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49C0DEE1BC366D000671406 /* ViewController.swift in Sources */,
+				A49C0DEC1BC366D000671406 /* AppDelegate.swift in Sources */,
+				A47C95CF1BC84C5800068120 /* CalculatorModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49C0DF81BC366D100671406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49C0E011BC366D100671406 /* ZegiestowskyCalculatorAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49C0E031BC366D100671406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49C0E0C1BC366D100671406 /* ZegiestowskyCalculatorAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A49C0DFE1BC366D100671406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A49C0DE71BC366D000671406 /* ZegiestowskyCalculatorApp */;
+			targetProxy = A49C0DFD1BC366D100671406 /* PBXContainerItemProxy */;
+		};
+		A49C0E091BC366D100671406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A49C0DE71BC366D000671406 /* ZegiestowskyCalculatorApp */;
+			targetProxy = A49C0E081BC366D100671406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A49C0DEF1BC366D000671406 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A49C0DF01BC366D000671406 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A49C0DF41BC366D100671406 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A49C0DF51BC366D100671406 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A49C0E0E1BC366D100671406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A49C0E0F1BC366D100671406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A49C0E111BC366D100671406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZegiestowskyCalculatorApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyCalculatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A49C0E121BC366D100671406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZegiestowskyCalculatorApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyCalculatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A49C0E141BC366D100671406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskyCalculatorAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyCalculatorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskyCalculatorApp.app/ZegiestowskyCalculatorApp";
+			};
+			name = Debug;
+		};
+		A49C0E151BC366D100671406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskyCalculatorAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyCalculatorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskyCalculatorApp.app/ZegiestowskyCalculatorApp";
+			};
+			name = Release;
+		};
+		A49C0E171BC366D100671406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskyCalculatorAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyCalculatorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskyCalculatorApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A49C0E181BC366D100671406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskyCalculatorAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyCalculatorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskyCalculatorApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A49C0DE31BC366D000671406 /* Build configuration list for PBXProject "ZegiestowskyCalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49C0E0E1BC366D100671406 /* Debug */,
+				A49C0E0F1BC366D100671406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A49C0E101BC366D100671406 /* Build configuration list for PBXNativeTarget "ZegiestowskyCalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49C0E111BC366D100671406 /* Debug */,
+				A49C0E121BC366D100671406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A49C0E131BC366D100671406 /* Build configuration list for PBXNativeTarget "ZegiestowskyCalculatorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49C0E141BC366D100671406 /* Debug */,
+				A49C0E151BC366D100671406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A49C0E161BC366D100671406 /* Build configuration list for PBXNativeTarget "ZegiestowskyCalculatorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49C0E171BC366D100671406 /* Debug */,
+				A49C0E181BC366D100671406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A49C0DE01BC366D000671406 /* Project object */;
+}

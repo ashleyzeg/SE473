@@ -69,7 +69,20 @@ class TableViewController: UITableViewController, UISearchResultsUpdating {
     }
     
     func updateSearchResultsForSearchController(searchController: UISearchController) {
-        //finish code here
+        //empty the filteredIslandList array
+        filteredIslandList.removeAll(keepCapacity: false)
+        
+        //create a search predicate from the searchbar text
+        let searchPredicate = NSPredicate(format: "SELF CONTAINS[c] %@", searchController.searchBar.text!)
+        
+        //build a new list with the search filtered data
+        let filteredList = (islandsList as NSArray).filteredArrayUsingPredicate(searchPredicate)
+        
+        //populate the filteredIslandList
+        filteredIslandList = filteredList as! [String]
+        
+        //reload the data
+        self.tableView.reloadData()
     }
 
     

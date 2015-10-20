@@ -11,9 +11,8 @@ import CoreData
 
 class TableViewController: UITableViewController {
 
-    //create a list of NSManagedObjects needed for CoreData
-    
-    var islands = [NSManagedObject]()
+    //create an instance of the DataStorageManager
+    var islandManager = DataStorageManager()
     
     
     @IBAction func addIsland(sender: AnyObject) {
@@ -24,7 +23,7 @@ class TableViewController: UITableViewController {
             
             let textField = alert.textFields!.first
             
-            self.saveName(textField!.text!)
+            self.islandManager.saveData("Island", attributeName: "name", attributeValue: textField!.text!)
             
             self.tableView.reloadData()
             
@@ -42,34 +41,6 @@ class TableViewController: UITableViewController {
         presentViewController(alert, animated: true, completion: nil)
     }
     
-    func saveName(name: String) {
-        //setup and access the NSManagedContext
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        
-        let managedContext = appDelegate.managedObjectContext
-        
-        //create an entity for the Island table
-        let entity = NSEntityDescription.entityForName("Island", inManagedObjectContext: managedContext)
-        
-        //create an Island instance
-        let island = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext)
-        
-        //set the name of the island 
-        island.setValue(name, forKey: "name")
-        
-        //typical do-block for error checking 
-        do {
-            //save the managed context
-            try managedContext.save()
-            
-            //update the data source
-            islands.append(island)
-        } catch let error as NSError {
-            print("Could not save \(error), \(error.userInfo)")
-        }
-        
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -81,22 +52,9 @@ class TableViewController: UITableViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         
-        let managedContext = appDelegate.managedObjectContext
+        islandManager.fetchData("Island")
         
-        let fetchRequest = NSFetchRequest(entityName: "Island")
-        
-        //typical do-block for error checking
-        do {
-            //fetch the managed context
-            let results = try managedContext.executeFetchRequest(fetchRequest)
-            
-            islands = results as! [NSManagedObject]
-            
-        } catch let error as NSError {
-            print("Could not fetch \(error), \(error.userInfo)")
-        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -113,7 +71,7 @@ class TableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return islands.count
+        return islandManager.storedObjects.count
     }
 
     
@@ -122,7 +80,7 @@ class TableViewController: UITableViewController {
 
         // Configure the cell...
 
-        let currentIsland = islands[indexPath.row]
+        let currentIsland = islandManager.storedObjects[indexPath.row]
         
         cell.textLabel!.text = currentIsland.valueForKey("name") as? String
         
@@ -138,17 +96,20 @@ class TableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // Override to support editing the table view.
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
+            
+            islandManager.deleteData(indexPath)
+            
             // Delete the row from the data source
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
+    
 
     /*
     // Override to support rearranging the table view.

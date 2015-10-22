@@ -43,6 +43,8 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -54,6 +56,8 @@ class TableViewController: UITableViewController {
     override func viewWillAppear(animated: Bool) {
         
         islandManager.fetchData("Island")
+        
+        self.tableView.reloadData()
         
     }
 
@@ -126,14 +130,30 @@ class TableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "segueToDetails" {
+            
+            
+            if let detailedVC = segue.destinationViewController as? DetailsViewController,
+                
+            let indexPath = self.tableView.indexPathForSelectedRow {
+                
+                let currentIsland: NSManagedObject = islandManager.storedObjects[indexPath.row]
+                
+                detailedVC.name = currentIsland.valueForKey("name") as? String
+                
+                detailedVC.island = currentIsland
+                
+                
+                
+            }
+        }
     }
-    */
+    
 
 }

@@ -84,7 +84,21 @@ class DataStorageManager {
         
     }
     
-    func updateData() {
+    func updateData(storedObj: NSManagedObject, name: String) {
+        //setup the managed context
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        
+        let managedContext = appDelegate.managedObjectContext
+        
+        //populate the island data
+        storedObj.setValue(name, forKey: "name")
+        
+        do {
+            try managedContext.save()
+        } catch let error as NSError {
+            print("Could not save \(error), \(error.userInfo)")
+        }
+        
         
     }
 }

@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A40905221BD6809B00E20302 /* DataStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40905211BD6809A00E20302 /* DataStorageManager.swift */; settings = {ASSET_TAGS = (); }; };
+		A40905221BD6809B00E20302 /* DataStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40905211BD6809A00E20302 /* DataStorageManager.swift */; };
+		A424E13A1BD922CF003F98DD /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A424E1391BD922CF003F98DD /* DetailsViewController.swift */; };
 		A48D63171BCD4720004891FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D63161BCD4720004891FE /* AppDelegate.swift */; };
 		A48D631C1BCD4721004891FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48D631A1BCD4721004891FE /* Main.storyboard */; };
 		A48D631F1BCD4721004891FE /* ZegiestowskyIslandsWithCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A48D631D1BCD4721004891FE /* ZegiestowskyIslandsWithCoreData.xcdatamodeld */; };
@@ -15,7 +16,7 @@
 		A48D63241BCD4721004891FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48D63221BCD4721004891FE /* LaunchScreen.storyboard */; };
 		A48D632F1BCD4725004891FE /* ZegiestowskyIslandsWithCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D632E1BCD4725004891FE /* ZegiestowskyIslandsWithCoreDataTests.swift */; };
 		A48D633A1BCD4726004891FE /* ZegiestowskyIslandsWithCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D63391BCD4726004891FE /* ZegiestowskyIslandsWithCoreDataUITests.swift */; };
-		A48D63481BCD4829004891FE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D63471BCD4829004891FE /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A48D63481BCD4829004891FE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D63471BCD4829004891FE /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		A40905211BD6809A00E20302 /* DataStorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStorageManager.swift; sourceTree = "<group>"; };
+		A424E1391BD922CF003F98DD /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		A48D63131BCD4720004891FE /* ZegiestowskyIslandsWithCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZegiestowskyIslandsWithCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48D63161BCD4720004891FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A48D631B1BCD4721004891FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				A48D63471BCD4829004891FE /* TableViewController.swift */,
+				A424E1391BD922CF003F98DD /* DetailsViewController.swift */,
 				A48D63161BCD4720004891FE /* AppDelegate.swift */,
 				A40905211BD6809A00E20302 /* DataStorageManager.swift */,
 				A48D631A1BCD4721004891FE /* Main.storyboard */,
@@ -265,6 +268,7 @@
 				A40905221BD6809B00E20302 /* DataStorageManager.swift in Sources */,
 				A48D63481BCD4829004891FE /* TableViewController.swift in Sources */,
 				A48D63171BCD4720004891FE /* AppDelegate.swift in Sources */,
+				A424E13A1BD922CF003F98DD /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

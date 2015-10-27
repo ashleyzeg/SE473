@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A43062C21BDFB91A00BCE28B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43062C11BDFB91A00BCE28B /* AppDelegate.swift */; };
+		A43062C71BDFB91A00BCE28B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43062C51BDFB91A00BCE28B /* Main.storyboard */; };
+		A43062C91BDFB91A00BCE28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43062C81BDFB91A00BCE28B /* Assets.xcassets */; };
+		A43062CC1BDFB91A00BCE28B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43062CA1BDFB91A00BCE28B /* LaunchScreen.storyboard */; };
+		A43062D71BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43062D61BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloudTests.swift */; };
+		A43062E21BDFB91B00BCE28B /* ZegiestowskyGreekIslandsCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43062E11BDFB91B00BCE28B /* ZegiestowskyGreekIslandsCloudUITests.swift */; };
+		A43062F61BDFBA6500BCE28B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43062EF1BDFBA6500BCE28B /* Bolts.framework */; };
+		A43062F71BDFBA6600BCE28B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43062F01BDFBA6500BCE28B /* Parse.framework */; };
+		A43062F81BDFBA6600BCE28B /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43062F11BDFBA6500BCE28B /* ParseCrashReporting.framework */; };
+		A43062F91BDFBA6600BCE28B /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43062F21BDFBA6500BCE28B /* ParseFacebookUtils.framework */; };
+		A43062FA1BDFBA6600BCE28B /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43062F31BDFBA6500BCE28B /* ParseFacebookUtilsV4.framework */; };
+		A43062FB1BDFBA6600BCE28B /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43062F41BDFBA6500BCE28B /* ParseTwitterUtils.framework */; };
+		A43062FC1BDFBA6600BCE28B /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43062F51BDFBA6500BCE28B /* ParseUI.framework */; };
+		A43062FE1BDFBB2600BCE28B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43062FD1BDFBB2600BCE28B /* AudioToolbox.framework */; };
+		A43063001BDFBB3100BCE28B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43062FF1BDFBB3100BCE28B /* CFNetwork.framework */; };
+		A43063021BDFBB3F00BCE28B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43063011BDFBB3F00BCE28B /* CoreGraphics.framework */; };
+		A43063041BDFBB4A00BCE28B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43063031BDFBB4A00BCE28B /* CoreLocation.framework */; };
+		A43063061BDFBB5B00BCE28B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43063051BDFBB5B00BCE28B /* QuartzCore.framework */; };
+		A43063081BDFBB6300BCE28B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43063071BDFBB6300BCE28B /* Security.framework */; };
+		A430630A1BDFBB6E00BCE28B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43063091BDFBB6E00BCE28B /* StoreKit.framework */; };
+		A430630C1BDFBB7500BCE28B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A430630B1BDFBB7500BCE28B /* SystemConfiguration.framework */; };
+		A430630E1BDFBB8000BCE28B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A430630D1BDFBB8000BCE28B /* libz.tbd */; };
+		A43063101BDFBB8A00BCE28B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A430630F1BDFBB8A00BCE28B /* libsqlite3.tbd */; };
+		A43063121BDFBBB000BCE28B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43063111BDFBBB000BCE28B /* MobileCoreServices.framework */; };
+		A43063161BDFBE0500BCE28B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A43063151BDFBE0500BCE28B /* libsqlite3.dylib */; };
+		A43063181BDFBE2E00BCE28B /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A43063171BDFBE2E00BCE28B /* libz.1.dylib */; };
+		A430631A1BDFC1D700BCE28B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43063191BDFC1D700BCE28B /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A43062D31BDFB91A00BCE28B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43062B61BDFB91A00BCE28B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43062BD1BDFB91A00BCE28B;
+			remoteInfo = ZegiestowskyGreekIslandsCloud;
+		};
+		A43062DE1BDFB91B00BCE28B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43062B61BDFB91A00BCE28B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43062BD1BDFB91A00BCE28B;
+			remoteInfo = ZegiestowskyGreekIslandsCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A43062BE1BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZegiestowskyGreekIslandsCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43062C11BDFB91A00BCE28B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A43062C61BDFB91A00BCE28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A43062C81BDFB91A00BCE28B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A43062CB1BDFB91A00BCE28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A43062CD1BDFB91A00BCE28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43062D21BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskyGreekIslandsCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43062D61BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskyGreekIslandsCloudTests.swift; sourceTree = "<group>"; };
+		A43062D81BDFB91B00BCE28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43062DD1BDFB91B00BCE28B /* ZegiestowskyGreekIslandsCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskyGreekIslandsCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43062E11BDFB91B00BCE28B /* ZegiestowskyGreekIslandsCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskyGreekIslandsCloudUITests.swift; sourceTree = "<group>"; };
+		A43062E31BDFB91B00BCE28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43062EF1BDFBA6500BCE28B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ZegiestowskyGreekIslandsCloud/Bolts.framework; sourceTree = "<group>"; };
+		A43062F01BDFBA6500BCE28B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ZegiestowskyGreekIslandsCloud/Parse.framework; sourceTree = "<group>"; };
+		A43062F11BDFBA6500BCE28B /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = ZegiestowskyGreekIslandsCloud/ParseCrashReporting.framework; sourceTree = "<group>"; };
+		A43062F21BDFBA6500BCE28B /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = ZegiestowskyGreekIslandsCloud/ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		A43062F31BDFBA6500BCE28B /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = ZegiestowskyGreekIslandsCloud/ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		A43062F41BDFBA6500BCE28B /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseTwitterUtils.framework; path = ZegiestowskyGreekIslandsCloud/ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		A43062F51BDFBA6500BCE28B /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = ZegiestowskyGreekIslandsCloud/ParseUI.framework; sourceTree = "<group>"; };
+		A43062FD1BDFBB2600BCE28B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A43062FF1BDFBB3100BCE28B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A43063011BDFBB3F00BCE28B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A43063031BDFBB4A00BCE28B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A43063051BDFBB5B00BCE28B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A43063071BDFBB6300BCE28B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A43063091BDFBB6E00BCE28B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A430630B1BDFBB7500BCE28B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A430630D1BDFBB8000BCE28B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A430630F1BDFBB8A00BCE28B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A43063111BDFBBB000BCE28B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A43063151BDFBE0500BCE28B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		A43063171BDFBE2E00BCE28B /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		A43063191BDFC1D700BCE28B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A43062BB1BDFB91A00BCE28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43063181BDFBE2E00BCE28B /* libz.1.dylib in Frameworks */,
+				A43063161BDFBE0500BCE28B /* libsqlite3.dylib in Frameworks */,
+				A43063101BDFBB8A00BCE28B /* libsqlite3.tbd in Frameworks */,
+				A430630E1BDFBB8000BCE28B /* libz.tbd in Frameworks */,
+				A43063121BDFBBB000BCE28B /* MobileCoreServices.framework in Frameworks */,
+				A430630C1BDFBB7500BCE28B /* SystemConfiguration.framework in Frameworks */,
+				A430630A1BDFBB6E00BCE28B /* StoreKit.framework in Frameworks */,
+				A43063081BDFBB6300BCE28B /* Security.framework in Frameworks */,
+				A43063061BDFBB5B00BCE28B /* QuartzCore.framework in Frameworks */,
+				A43063041BDFBB4A00BCE28B /* CoreLocation.framework in Frameworks */,
+				A43063021BDFBB3F00BCE28B /* CoreGraphics.framework in Frameworks */,
+				A43063001BDFBB3100BCE28B /* CFNetwork.framework in Frameworks */,
+				A43062FE1BDFBB2600BCE28B /* AudioToolbox.framework in Frameworks */,
+				A43062F71BDFBA6600BCE28B /* Parse.framework in Frameworks */,
+				A43062F81BDFBA6600BCE28B /* ParseCrashReporting.framework in Frameworks */,
+				A43062FC1BDFBA6600BCE28B /* ParseUI.framework in Frameworks */,
+				A43062F91BDFBA6600BCE28B /* ParseFacebookUtils.framework in Frameworks */,
+				A43062F61BDFBA6500BCE28B /* Bolts.framework in Frameworks */,
+				A43062FB1BDFBA6600BCE28B /* ParseTwitterUtils.framework in Frameworks */,
+				A43062FA1BDFBA6600BCE28B /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43062CF1BDFB91A00BCE28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43062DA1BDFB91B00BCE28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A43062B51BDFB91A00BCE28B = {
+			isa = PBXGroup;
+			children = (
+				A43062C01BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloud */,
+				A43062D51BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloudTests */,
+				A43062E01BDFB91B00BCE28B /* ZegiestowskyGreekIslandsCloudUITests */,
+				A43062BF1BDFB91A00BCE28B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A43062BF1BDFB91A00BCE28B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A43062BE1BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloud.app */,
+				A43062D21BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloudTests.xctest */,
+				A43062DD1BDFB91B00BCE28B /* ZegiestowskyGreekIslandsCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A43062C01BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloud */ = {
+			isa = PBXGroup;
+			children = (
+				A43063141BDFBC7E00BCE28B /* Libraries */,
+				A43062C11BDFB91A00BCE28B /* AppDelegate.swift */,
+				A43063191BDFC1D700BCE28B /* TableViewController.swift */,
+				A43062C51BDFB91A00BCE28B /* Main.storyboard */,
+				A43062C81BDFB91A00BCE28B /* Assets.xcassets */,
+				A43062CA1BDFB91A00BCE28B /* LaunchScreen.storyboard */,
+				A43062CD1BDFB91A00BCE28B /* Info.plist */,
+			);
+			path = ZegiestowskyGreekIslandsCloud;
+			sourceTree = "<group>";
+		};
+		A43062D51BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				A43062D61BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloudTests.swift */,
+				A43062D81BDFB91B00BCE28B /* Info.plist */,
+			);
+			path = ZegiestowskyGreekIslandsCloudTests;
+			sourceTree = "<group>";
+		};
+		A43062E01BDFB91B00BCE28B /* ZegiestowskyGreekIslandsCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A43062E11BDFB91B00BCE28B /* ZegiestowskyGreekIslandsCloudUITests.swift */,
+				A43062E31BDFB91B00BCE28B /* Info.plist */,
+			);
+			path = ZegiestowskyGreekIslandsCloudUITests;
+			sourceTree = "<group>";
+		};
+		A43063141BDFBC7E00BCE28B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A43063171BDFBE2E00BCE28B /* libz.1.dylib */,
+				A43063151BDFBE0500BCE28B /* libsqlite3.dylib */,
+				A430630F1BDFBB8A00BCE28B /* libsqlite3.tbd */,
+				A430630D1BDFBB8000BCE28B /* libz.tbd */,
+				A43062EF1BDFBA6500BCE28B /* Bolts.framework */,
+				A43062F01BDFBA6500BCE28B /* Parse.framework */,
+				A43062F11BDFBA6500BCE28B /* ParseCrashReporting.framework */,
+				A43062F21BDFBA6500BCE28B /* ParseFacebookUtils.framework */,
+				A43062F31BDFBA6500BCE28B /* ParseFacebookUtilsV4.framework */,
+				A43062F41BDFBA6500BCE28B /* ParseTwitterUtils.framework */,
+				A43062F51BDFBA6500BCE28B /* ParseUI.framework */,
+				A43063111BDFBBB000BCE28B /* MobileCoreServices.framework */,
+				A430630B1BDFBB7500BCE28B /* SystemConfiguration.framework */,
+				A43063091BDFBB6E00BCE28B /* StoreKit.framework */,
+				A43063071BDFBB6300BCE28B /* Security.framework */,
+				A43063051BDFBB5B00BCE28B /* QuartzCore.framework */,
+				A43063031BDFBB4A00BCE28B /* CoreLocation.framework */,
+				A43063011BDFBB3F00BCE28B /* CoreGraphics.framework */,
+				A43062FF1BDFBB3100BCE28B /* CFNetwork.framework */,
+				A43062FD1BDFBB2600BCE28B /* AudioToolbox.framework */,
+			);
+			name = Libraries;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A43062BD1BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43062E61BDFB91B00BCE28B /* Build configuration list for PBXNativeTarget "ZegiestowskyGreekIslandsCloud" */;
+			buildPhases = (
+				A43062BA1BDFB91A00BCE28B /* Sources */,
+				A43062BB1BDFB91A00BCE28B /* Frameworks */,
+				A43062BC1BDFB91A00BCE28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZegiestowskyGreekIslandsCloud;
+			productName = ZegiestowskyGreekIslandsCloud;
+			productReference = A43062BE1BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A43062D11BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43062E91BDFB91B00BCE28B /* Build configuration list for PBXNativeTarget "ZegiestowskyGreekIslandsCloudTests" */;
+			buildPhases = (
+				A43062CE1BDFB91A00BCE28B /* Sources */,
+				A43062CF1BDFB91A00BCE28B /* Frameworks */,
+				A43062D01BDFB91A00BCE28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43062D41BDFB91A00BCE28B /* PBXTargetDependency */,
+			);
+			name = ZegiestowskyGreekIslandsCloudTests;
+			productName = ZegiestowskyGreekIslandsCloudTests;
+			productReference = A43062D21BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A43062DC1BDFB91B00BCE28B /* ZegiestowskyGreekIslandsCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43062EC1BDFB91B00BCE28B /* Build configuration list for PBXNativeTarget "ZegiestowskyGreekIslandsCloudUITests" */;
+			buildPhases = (
+				A43062D91BDFB91B00BCE28B /* Sources */,
+				A43062DA1BDFB91B00BCE28B /* Frameworks */,
+				A43062DB1BDFB91B00BCE28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43062DF1BDFB91B00BCE28B /* PBXTargetDependency */,
+			);
+			name = ZegiestowskyGreekIslandsCloudUITests;
+			productName = ZegiestowskyGreekIslandsCloudUITests;
+			productReference = A43062DD1BDFB91B00BCE28B /* ZegiestowskyGreekIslandsCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A43062B61BDFB91A00BCE28B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Zegiestowsky, Ashley";
+				TargetAttributes = {
+					A43062BD1BDFB91A00BCE28B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A43062D11BDFB91A00BCE28B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A43062BD1BDFB91A00BCE28B;
+					};
+					A43062DC1BDFB91B00BCE28B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A43062BD1BDFB91A00BCE28B;
+					};
+				};
+			};
+			buildConfigurationList = A43062B91BDFB91A00BCE28B /* Build configuration list for PBXProject "ZegiestowskyGreekIslandsCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A43062B51BDFB91A00BCE28B;
+			productRefGroup = A43062BF1BDFB91A00BCE28B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43062BD1BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloud */,
+				A43062D11BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloudTests */,
+				A43062DC1BDFB91B00BCE28B /* ZegiestowskyGreekIslandsCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A43062BC1BDFB91A00BCE28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43062CC1BDFB91A00BCE28B /* LaunchScreen.storyboard in Resources */,
+				A43062C91BDFB91A00BCE28B /* Assets.xcassets in Resources */,
+				A43062C71BDFB91A00BCE28B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43062D01BDFB91A00BCE28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43062DB1BDFB91B00BCE28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A43062BA1BDFB91A00BCE28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43062C21BDFB91A00BCE28B /* AppDelegate.swift in Sources */,
+				A430631A1BDFC1D700BCE28B /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43062CE1BDFB91A00BCE28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43062D71BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43062D91BDFB91B00BCE28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43062E21BDFB91B00BCE28B /* ZegiestowskyGreekIslandsCloudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A43062D41BDFB91A00BCE28B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43062BD1BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloud */;
+			targetProxy = A43062D31BDFB91A00BCE28B /* PBXContainerItemProxy */;
+		};
+		A43062DF1BDFB91B00BCE28B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43062BD1BDFB91A00BCE28B /* ZegiestowskyGreekIslandsCloud */;
+			targetProxy = A43062DE1BDFB91B00BCE28B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A43062C51BDFB91A00BCE28B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43062C61BDFB91A00BCE28B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A43062CA1BDFB91A00BCE28B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43062CB1BDFB91A00BCE28B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A43062E41BDFB91B00BCE28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A43062E51BDFB91B00BCE28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A43062E71BDFB91B00BCE28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZegiestowskyGreekIslandsCloud",
+				);
+				INFOPLIST_FILE = ZegiestowskyGreekIslandsCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyGreekIslandsCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A43062E81BDFB91B00BCE28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZegiestowskyGreekIslandsCloud",
+				);
+				INFOPLIST_FILE = ZegiestowskyGreekIslandsCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyGreekIslandsCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A43062EA1BDFB91B00BCE28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskyGreekIslandsCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyGreekIslandsCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskyGreekIslandsCloud.app/ZegiestowskyGreekIslandsCloud";
+			};
+			name = Debug;
+		};
+		A43062EB1BDFB91B00BCE28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskyGreekIslandsCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyGreekIslandsCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskyGreekIslandsCloud.app/ZegiestowskyGreekIslandsCloud";
+			};
+			name = Release;
+		};
+		A43062ED1BDFB91B00BCE28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskyGreekIslandsCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyGreekIslandsCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskyGreekIslandsCloud;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A43062EE1BDFB91B00BCE28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskyGreekIslandsCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyGreekIslandsCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskyGreekIslandsCloud;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A43062B91BDFB91A00BCE28B /* Build configuration list for PBXProject "ZegiestowskyGreekIslandsCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43062E41BDFB91B00BCE28B /* Debug */,
+				A43062E51BDFB91B00BCE28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43062E61BDFB91B00BCE28B /* Build configuration list for PBXNativeTarget "ZegiestowskyGreekIslandsCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43062E71BDFB91B00BCE28B /* Debug */,
+				A43062E81BDFB91B00BCE28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A43062E91BDFB91B00BCE28B /* Build configuration list for PBXNativeTarget "ZegiestowskyGreekIslandsCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43062EA1BDFB91B00BCE28B /* Debug */,
+				A43062EB1BDFB91B00BCE28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A43062EC1BDFB91B00BCE28B /* Build configuration list for PBXNativeTarget "ZegiestowskyGreekIslandsCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43062ED1BDFB91B00BCE28B /* Debug */,
+				A43062EE1BDFB91B00BCE28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A43062B61BDFB91A00BCE28B /* Project object */;
+}

@@ -34,6 +34,7 @@
 		A43063161BDFBE0500BCE28B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A43063151BDFBE0500BCE28B /* libsqlite3.dylib */; };
 		A43063181BDFBE2E00BCE28B /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A43063171BDFBE2E00BCE28B /* libz.1.dylib */; };
 		A430631A1BDFC1D700BCE28B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43063191BDFC1D700BCE28B /* TableViewController.swift */; };
+		A4B15D591BE263680004A781 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B15D581BE263680004A781 /* DetailedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		A43063151BDFBE0500BCE28B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
 		A43063171BDFBE2E00BCE28B /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
 		A43063191BDFC1D700BCE28B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A4B15D581BE263680004A781 /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				A43062C81BDFB91A00BCE28B /* Assets.xcassets */,
 				A43062CA1BDFB91A00BCE28B /* LaunchScreen.storyboard */,
 				A43062CD1BDFB91A00BCE28B /* Info.plist */,
+				A4B15D581BE263680004A781 /* DetailedViewController.swift */,
 			);
 			path = ZegiestowskyGreekIslandsCloud;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			files = (
 				A43062C21BDFB91A00BCE28B /* AppDelegate.swift in Sources */,
 				A430631A1BDFC1D700BCE28B /* TableViewController.swift in Sources */,
+				A4B15D591BE263680004A781 /* DetailedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +583,7 @@
 				A43062E81BDFB91B00BCE28B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A43062E91BDFB91B00BCE28B /* Build configuration list for PBXNativeTarget "ZegiestowskyGreekIslandsCloudTests" */ = {
 			isa = XCConfigurationList;
@@ -587,6 +592,7 @@
 				A43062EB1BDFB91B00BCE28B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A43062EC1BDFB91B00BCE28B /* Build configuration list for PBXNativeTarget "ZegiestowskyGreekIslandsCloudUITests" */ = {
 			isa = XCConfigurationList;
@@ -595,6 +601,7 @@
 				A43062EE1BDFB91B00BCE28B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

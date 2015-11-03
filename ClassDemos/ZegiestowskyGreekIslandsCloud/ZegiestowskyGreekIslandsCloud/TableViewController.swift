@@ -47,6 +47,21 @@ class TableViewController: PFQueryTableViewController {
         self.navigationItem.leftBarButtonItem = self.editButtonItem()
     }
     
+    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        
+        if editingStyle == .Delete {
+            
+            //get the current object from the parse table
+            let currentIsland: PFObject = objects![indexPath.row] as! PFObject
+            
+            //delete object in the background without blocking the app resuming execution
+            currentIsland.deleteInBackground()
+            
+            //reloading from Parse server
+            self.loadObjects()
+        }
+    }
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject?) -> PFTableViewCell? {
         
         //create a cell

@@ -15,6 +15,32 @@ class DetailedViewController: UIViewController {
     @IBOutlet weak var imageName: UITextField!
     @IBOutlet weak var islandImage: UIImageView!
     @IBOutlet weak var islandAttractions: UITextView!
+    @IBAction func saveIsland(sender: AnyObject) {
+        
+        if let currentIsland = currentObject {
+            //populate the Island on Parse
+            currentIsland["name"] = islandName.text
+            currentIsland["attractions"] = islandAttractions.text
+            currentIsland["image"] = imageName.text
+            
+            //save the data back to the server in background
+            currentIsland.saveEventually()
+        } else { //object is nil
+            
+            //create and insert a new object 
+            let newIsland = PFObject(className: "Island")
+            
+            //populate the new island
+            newIsland["name"] = islandName.text
+            newIsland["attractions"] = islandAttractions.text
+            newIsland["image"] = imageName.text
+            
+            newIsland.saveEventually()
+        }
+        
+        //return to the table view
+        self.navigationController?.popToRootViewControllerAnimated(true)
+    }
     
     //container to store the segued object from the table view controller
     

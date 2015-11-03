@@ -112,7 +112,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3C5-nP-Ha4">
                                 <rect key="frame" x="0.0" y="451" width="375" height="44"/>
                                 <items>
-                                    <barButtonItem systemItem="save" id="u0S-37-MKe"/>
+                                    <barButtonItem systemItem="save" id="u0S-37-MKe">
+                                        <connections>
+                                            <action selector="saveIsland:" destination="csW-jK-5m6" id="fXI-8b-7zl"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xuX-el-g2f">

@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4F52CD81BEC232B004335B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F52CD71BEC232B004335B0 /* AppDelegate.swift */; };
+		A4F52CDD1BEC232B004335B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F52CDB1BEC232B004335B0 /* Main.storyboard */; };
+		A4F52CE01BEC232B004335B0 /* ZegiestowskySongsCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4F52CDE1BEC232B004335B0 /* ZegiestowskySongsCoreData.xcdatamodeld */; };
+		A4F52CE21BEC232B004335B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F52CE11BEC232B004335B0 /* Assets.xcassets */; };
+		A4F52CE51BEC232C004335B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F52CE31BEC232C004335B0 /* LaunchScreen.storyboard */; };
+		A4F52CF01BEC232C004335B0 /* ZegiestowskySongsCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F52CEF1BEC232C004335B0 /* ZegiestowskySongsCoreDataTests.swift */; };
+		A4F52CFB1BEC232C004335B0 /* ZegiestowskySongsCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F52CFA1BEC232C004335B0 /* ZegiestowskySongsCoreDataUITests.swift */; };
+		A4F52D091BEC24AB004335B0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F52D081BEC24AB004335B0 /* TableViewController.swift */; };
+		A4F52D0B1BEC26BC004335B0 /* DataStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F52D0A1BEC26BC004335B0 /* DataStoreManager.swift */; };
+		A4F52D0D1BEC38E9004335B0 /* SongDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F52D0C1BEC38E9004335B0 /* SongDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4F52CEC1BEC232C004335B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F52CCC1BEC232B004335B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F52CD31BEC232B004335B0;
+			remoteInfo = ZegiestowskySongsCoreData;
+		};
+		A4F52CF71BEC232C004335B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F52CCC1BEC232B004335B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F52CD31BEC232B004335B0;
+			remoteInfo = ZegiestowskySongsCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4F52CD41BEC232B004335B0 /* ZegiestowskySongsCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZegiestowskySongsCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F52CD71BEC232B004335B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4F52CDC1BEC232B004335B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4F52CDF1BEC232B004335B0 /* ZegiestowskySongsCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZegiestowskySongsCoreData.xcdatamodel; sourceTree = "<group>"; };
+		A4F52CE11BEC232B004335B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4F52CE41BEC232C004335B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4F52CE61BEC232C004335B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F52CEB1BEC232C004335B0 /* ZegiestowskySongsCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskySongsCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F52CEF1BEC232C004335B0 /* ZegiestowskySongsCoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskySongsCoreDataTests.swift; sourceTree = "<group>"; };
+		A4F52CF11BEC232C004335B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F52CF61BEC232C004335B0 /* ZegiestowskySongsCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskySongsCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F52CFA1BEC232C004335B0 /* ZegiestowskySongsCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskySongsCoreDataUITests.swift; sourceTree = "<group>"; };
+		A4F52CFC1BEC232C004335B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F52D081BEC24AB004335B0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A4F52D0A1BEC26BC004335B0 /* DataStoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStoreManager.swift; sourceTree = "<group>"; };
+		A4F52D0C1BEC38E9004335B0 /* SongDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F52CD11BEC232B004335B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F52CE81BEC232C004335B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F52CF31BEC232C004335B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4F52CCB1BEC232B004335B0 = {
+			isa = PBXGroup;
+			children = (
+				A4F52CD61BEC232B004335B0 /* ZegiestowskySongsCoreData */,
+				A4F52CEE1BEC232C004335B0 /* ZegiestowskySongsCoreDataTests */,
+				A4F52CF91BEC232C004335B0 /* ZegiestowskySongsCoreDataUITests */,
+				A4F52CD51BEC232B004335B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F52CD51BEC232B004335B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F52CD41BEC232B004335B0 /* ZegiestowskySongsCoreData.app */,
+				A4F52CEB1BEC232C004335B0 /* ZegiestowskySongsCoreDataTests.xctest */,
+				A4F52CF61BEC232C004335B0 /* ZegiestowskySongsCoreDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F52CD61BEC232B004335B0 /* ZegiestowskySongsCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A4F52CD71BEC232B004335B0 /* AppDelegate.swift */,
+				A4F52D081BEC24AB004335B0 /* TableViewController.swift */,
+				A4F52D0A1BEC26BC004335B0 /* DataStoreManager.swift */,
+				A4F52D0C1BEC38E9004335B0 /* SongDetailsViewController.swift */,
+				A4F52CDB1BEC232B004335B0 /* Main.storyboard */,
+				A4F52CE11BEC232B004335B0 /* Assets.xcassets */,
+				A4F52CE31BEC232C004335B0 /* LaunchScreen.storyboard */,
+				A4F52CE61BEC232C004335B0 /* Info.plist */,
+				A4F52CDE1BEC232B004335B0 /* ZegiestowskySongsCoreData.xcdatamodeld */,
+			);
+			path = ZegiestowskySongsCoreData;
+			sourceTree = "<group>";
+		};
+		A4F52CEE1BEC232C004335B0 /* ZegiestowskySongsCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F52CEF1BEC232C004335B0 /* ZegiestowskySongsCoreDataTests.swift */,
+				A4F52CF11BEC232C004335B0 /* Info.plist */,
+			);
+			path = ZegiestowskySongsCoreDataTests;
+			sourceTree = "<group>";
+		};
+		A4F52CF91BEC232C004335B0 /* ZegiestowskySongsCoreDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F52CFA1BEC232C004335B0 /* ZegiestowskySongsCoreDataUITests.swift */,
+				A4F52CFC1BEC232C004335B0 /* Info.plist */,
+			);
+			path = ZegiestowskySongsCoreDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4F52CD31BEC232B004335B0 /* ZegiestowskySongsCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F52CFF1BEC232C004335B0 /* Build configuration list for PBXNativeTarget "ZegiestowskySongsCoreData" */;
+			buildPhases = (
+				A4F52CD01BEC232B004335B0 /* Sources */,
+				A4F52CD11BEC232B004335B0 /* Frameworks */,
+				A4F52CD21BEC232B004335B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZegiestowskySongsCoreData;
+			productName = ZegiestowskySongsCoreData;
+			productReference = A4F52CD41BEC232B004335B0 /* ZegiestowskySongsCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4F52CEA1BEC232C004335B0 /* ZegiestowskySongsCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F52D021BEC232C004335B0 /* Build configuration list for PBXNativeTarget "ZegiestowskySongsCoreDataTests" */;
+			buildPhases = (
+				A4F52CE71BEC232C004335B0 /* Sources */,
+				A4F52CE81BEC232C004335B0 /* Frameworks */,
+				A4F52CE91BEC232C004335B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F52CED1BEC232C004335B0 /* PBXTargetDependency */,
+			);
+			name = ZegiestowskySongsCoreDataTests;
+			productName = ZegiestowskySongsCoreDataTests;
+			productReference = A4F52CEB1BEC232C004335B0 /* ZegiestowskySongsCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4F52CF51BEC232C004335B0 /* ZegiestowskySongsCoreDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F52D051BEC232C004335B0 /* Build configuration list for PBXNativeTarget "ZegiestowskySongsCoreDataUITests" */;
+			buildPhases = (
+				A4F52CF21BEC232C004335B0 /* Sources */,
+				A4F52CF31BEC232C004335B0 /* Frameworks */,
+				A4F52CF41BEC232C004335B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F52CF81BEC232C004335B0 /* PBXTargetDependency */,
+			);
+			name = ZegiestowskySongsCoreDataUITests;
+			productName = ZegiestowskySongsCoreDataUITests;
+			productReference = A4F52CF61BEC232C004335B0 /* ZegiestowskySongsCoreDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4F52CCC1BEC232B004335B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Zegiestowsky, Ashley";
+				TargetAttributes = {
+					A4F52CD31BEC232B004335B0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A4F52CEA1BEC232C004335B0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A4F52CD31BEC232B004335B0;
+					};
+					A4F52CF51BEC232C004335B0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A4F52CD31BEC232B004335B0;
+					};
+				};
+			};
+			buildConfigurationList = A4F52CCF1BEC232B004335B0 /* Build configuration list for PBXProject "ZegiestowskySongsCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4F52CCB1BEC232B004335B0;
+			productRefGroup = A4F52CD51BEC232B004335B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4F52CD31BEC232B004335B0 /* ZegiestowskySongsCoreData */,
+				A4F52CEA1BEC232C004335B0 /* ZegiestowskySongsCoreDataTests */,
+				A4F52CF51BEC232C004335B0 /* ZegiestowskySongsCoreDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4F52CD21BEC232B004335B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F52CE51BEC232C004335B0 /* LaunchScreen.storyboard in Resources */,
+				A4F52CE21BEC232B004335B0 /* Assets.xcassets in Resources */,
+				A4F52CDD1BEC232B004335B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F52CE91BEC232C004335B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F52CF41BEC232C004335B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4F52CD01BEC232B004335B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F52CD81BEC232B004335B0 /* AppDelegate.swift in Sources */,
+				A4F52D0D1BEC38E9004335B0 /* SongDetailsViewController.swift in Sources */,
+				A4F52D091BEC24AB004335B0 /* TableViewController.swift in Sources */,
+				A4F52CE01BEC232B004335B0 /* ZegiestowskySongsCoreData.xcdatamodeld in Sources */,
+				A4F52D0B1BEC26BC004335B0 /* DataStoreManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F52CE71BEC232C004335B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F52CF01BEC232C004335B0 /* ZegiestowskySongsCoreDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F52CF21BEC232C004335B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F52CFB1BEC232C004335B0 /* ZegiestowskySongsCoreDataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4F52CED1BEC232C004335B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F52CD31BEC232B004335B0 /* ZegiestowskySongsCoreData */;
+			targetProxy = A4F52CEC1BEC232C004335B0 /* PBXContainerItemProxy */;
+		};
+		A4F52CF81BEC232C004335B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F52CD31BEC232B004335B0 /* ZegiestowskySongsCoreData */;
+			targetProxy = A4F52CF71BEC232C004335B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4F52CDB1BEC232B004335B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F52CDC1BEC232B004335B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4F52CE31BEC232C004335B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F52CE41BEC232C004335B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4F52CFD1BEC232C004335B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4F52CFE1BEC232C004335B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4F52D001BEC232C004335B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZegiestowskySongsCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskySongsCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4F52D011BEC232C004335B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZegiestowskySongsCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskySongsCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4F52D031BEC232C004335B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskySongsCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskySongsCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskySongsCoreData.app/ZegiestowskySongsCoreData";
+			};
+			name = Debug;
+		};
+		A4F52D041BEC232C004335B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskySongsCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskySongsCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskySongsCoreData.app/ZegiestowskySongsCoreData";
+			};
+			name = Release;
+		};
+		A4F52D061BEC232C004335B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskySongsCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskySongsCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskySongsCoreData;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A4F52D071BEC232C004335B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskySongsCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskySongsCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskySongsCoreData;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4F52CCF1BEC232B004335B0 /* Build configuration list for PBXProject "ZegiestowskySongsCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F52CFD1BEC232C004335B0 /* Debug */,
+				A4F52CFE1BEC232C004335B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F52CFF1BEC232C004335B0 /* Build configuration list for PBXNativeTarget "ZegiestowskySongsCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F52D001BEC232C004335B0 /* Debug */,
+				A4F52D011BEC232C004335B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4F52D021BEC232C004335B0 /* Build configuration list for PBXNativeTarget "ZegiestowskySongsCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F52D031BEC232C004335B0 /* Debug */,
+				A4F52D041BEC232C004335B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4F52D051BEC232C004335B0 /* Build configuration list for PBXNativeTarget "ZegiestowskySongsCoreDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F52D061BEC232C004335B0 /* Debug */,
+				A4F52D071BEC232C004335B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4F52CDE1BEC232B004335B0 /* ZegiestowskySongsCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4F52CDF1BEC232B004335B0 /* ZegiestowskySongsCoreData.xcdatamodel */,
+			);
+			currentVersion = A4F52CDF1BEC232B004335B0 /* ZegiestowskySongsCoreData.xcdatamodel */;
+			path = ZegiestowskySongsCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4F52CCC1BEC232B004335B0 /* Project object */;
+}

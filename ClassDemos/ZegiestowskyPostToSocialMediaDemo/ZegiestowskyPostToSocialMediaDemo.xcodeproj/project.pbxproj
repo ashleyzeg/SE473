@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A418C7CC1BF23C1700A787D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418C7CB1BF23C1700A787D4 /* AppDelegate.swift */; };
+		A418C7CE1BF23C1700A787D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418C7CD1BF23C1700A787D4 /* ViewController.swift */; };
+		A418C7D11BF23C1800A787D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A418C7CF1BF23C1800A787D4 /* Main.storyboard */; };
+		A418C7D31BF23C1800A787D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A418C7D21BF23C1800A787D4 /* Assets.xcassets */; };
+		A418C7D61BF23C1800A787D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A418C7D41BF23C1800A787D4 /* LaunchScreen.storyboard */; };
+		A418C7E11BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418C7E01BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoTests.swift */; };
+		A418C7EC1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418C7EB1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A418C7DD1BF23C1800A787D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A418C7C01BF23C1700A787D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A418C7C71BF23C1700A787D4;
+			remoteInfo = ZegiestowskyPostToSocialMediaDemo;
+		};
+		A418C7E81BF23C1800A787D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A418C7C01BF23C1700A787D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A418C7C71BF23C1700A787D4;
+			remoteInfo = ZegiestowskyPostToSocialMediaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A418C7C81BF23C1700A787D4 /* ZegiestowskyPostToSocialMediaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZegiestowskyPostToSocialMediaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A418C7CB1BF23C1700A787D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A418C7CD1BF23C1700A787D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A418C7D01BF23C1800A787D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A418C7D21BF23C1800A787D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A418C7D51BF23C1800A787D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A418C7D71BF23C1800A787D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A418C7DC1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskyPostToSocialMediaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A418C7E01BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskyPostToSocialMediaDemoTests.swift; sourceTree = "<group>"; };
+		A418C7E21BF23C1800A787D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A418C7E71BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskyPostToSocialMediaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A418C7EB1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskyPostToSocialMediaDemoUITests.swift; sourceTree = "<group>"; };
+		A418C7ED1BF23C1800A787D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A418C7C51BF23C1700A787D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418C7D91BF23C1800A787D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418C7E41BF23C1800A787D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A418C7BF1BF23C1700A787D4 = {
+			isa = PBXGroup;
+			children = (
+				A418C7CA1BF23C1700A787D4 /* ZegiestowskyPostToSocialMediaDemo */,
+				A418C7DF1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoTests */,
+				A418C7EA1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoUITests */,
+				A418C7C91BF23C1700A787D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A418C7C91BF23C1700A787D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A418C7C81BF23C1700A787D4 /* ZegiestowskyPostToSocialMediaDemo.app */,
+				A418C7DC1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoTests.xctest */,
+				A418C7E71BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A418C7CA1BF23C1700A787D4 /* ZegiestowskyPostToSocialMediaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A418C7CB1BF23C1700A787D4 /* AppDelegate.swift */,
+				A418C7CD1BF23C1700A787D4 /* ViewController.swift */,
+				A418C7CF1BF23C1800A787D4 /* Main.storyboard */,
+				A418C7D21BF23C1800A787D4 /* Assets.xcassets */,
+				A418C7D41BF23C1800A787D4 /* LaunchScreen.storyboard */,
+				A418C7D71BF23C1800A787D4 /* Info.plist */,
+			);
+			path = ZegiestowskyPostToSocialMediaDemo;
+			sourceTree = "<group>";
+		};
+		A418C7DF1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A418C7E01BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoTests.swift */,
+				A418C7E21BF23C1800A787D4 /* Info.plist */,
+			);
+			path = ZegiestowskyPostToSocialMediaDemoTests;
+			sourceTree = "<group>";
+		};
+		A418C7EA1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A418C7EB1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoUITests.swift */,
+				A418C7ED1BF23C1800A787D4 /* Info.plist */,
+			);
+			path = ZegiestowskyPostToSocialMediaDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A418C7C71BF23C1700A787D4 /* ZegiestowskyPostToSocialMediaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A418C7F01BF23C1800A787D4 /* Build configuration list for PBXNativeTarget "ZegiestowskyPostToSocialMediaDemo" */;
+			buildPhases = (
+				A418C7C41BF23C1700A787D4 /* Sources */,
+				A418C7C51BF23C1700A787D4 /* Frameworks */,
+				A418C7C61BF23C1700A787D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZegiestowskyPostToSocialMediaDemo;
+			productName = ZegiestowskyPostToSocialMediaDemo;
+			productReference = A418C7C81BF23C1700A787D4 /* ZegiestowskyPostToSocialMediaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A418C7DB1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A418C7F31BF23C1800A787D4 /* Build configuration list for PBXNativeTarget "ZegiestowskyPostToSocialMediaDemoTests" */;
+			buildPhases = (
+				A418C7D81BF23C1800A787D4 /* Sources */,
+				A418C7D91BF23C1800A787D4 /* Frameworks */,
+				A418C7DA1BF23C1800A787D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A418C7DE1BF23C1800A787D4 /* PBXTargetDependency */,
+			);
+			name = ZegiestowskyPostToSocialMediaDemoTests;
+			productName = ZegiestowskyPostToSocialMediaDemoTests;
+			productReference = A418C7DC1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A418C7E61BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A418C7F61BF23C1800A787D4 /* Build configuration list for PBXNativeTarget "ZegiestowskyPostToSocialMediaDemoUITests" */;
+			buildPhases = (
+				A418C7E31BF23C1800A787D4 /* Sources */,
+				A418C7E41BF23C1800A787D4 /* Frameworks */,
+				A418C7E51BF23C1800A787D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A418C7E91BF23C1800A787D4 /* PBXTargetDependency */,
+			);
+			name = ZegiestowskyPostToSocialMediaDemoUITests;
+			productName = ZegiestowskyPostToSocialMediaDemoUITests;
+			productReference = A418C7E71BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A418C7C01BF23C1700A787D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Zegiestowsky, Ashley";
+				TargetAttributes = {
+					A418C7C71BF23C1700A787D4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A418C7DB1BF23C1800A787D4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A418C7C71BF23C1700A787D4;
+					};
+					A418C7E61BF23C1800A787D4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A418C7C71BF23C1700A787D4;
+					};
+				};
+			};
+			buildConfigurationList = A418C7C31BF23C1700A787D4 /* Build configuration list for PBXProject "ZegiestowskyPostToSocialMediaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A418C7BF1BF23C1700A787D4;
+			productRefGroup = A418C7C91BF23C1700A787D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A418C7C71BF23C1700A787D4 /* ZegiestowskyPostToSocialMediaDemo */,
+				A418C7DB1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoTests */,
+				A418C7E61BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A418C7C61BF23C1700A787D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A418C7D61BF23C1800A787D4 /* LaunchScreen.storyboard in Resources */,
+				A418C7D31BF23C1800A787D4 /* Assets.xcassets in Resources */,
+				A418C7D11BF23C1800A787D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418C7DA1BF23C1800A787D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418C7E51BF23C1800A787D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A418C7C41BF23C1700A787D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A418C7CE1BF23C1700A787D4 /* ViewController.swift in Sources */,
+				A418C7CC1BF23C1700A787D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418C7D81BF23C1800A787D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A418C7E11BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418C7E31BF23C1800A787D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A418C7EC1BF23C1800A787D4 /* ZegiestowskyPostToSocialMediaDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A418C7DE1BF23C1800A787D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A418C7C71BF23C1700A787D4 /* ZegiestowskyPostToSocialMediaDemo */;
+			targetProxy = A418C7DD1BF23C1800A787D4 /* PBXContainerItemProxy */;
+		};
+		A418C7E91BF23C1800A787D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A418C7C71BF23C1700A787D4 /* ZegiestowskyPostToSocialMediaDemo */;
+			targetProxy = A418C7E81BF23C1800A787D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A418C7CF1BF23C1800A787D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A418C7D01BF23C1800A787D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A418C7D41BF23C1800A787D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A418C7D51BF23C1800A787D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A418C7EE1BF23C1800A787D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A418C7EF1BF23C1800A787D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A418C7F11BF23C1800A787D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZegiestowskyPostToSocialMediaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyPostToSocialMediaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A418C7F21BF23C1800A787D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZegiestowskyPostToSocialMediaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyPostToSocialMediaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A418C7F41BF23C1800A787D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskyPostToSocialMediaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyPostToSocialMediaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskyPostToSocialMediaDemo.app/ZegiestowskyPostToSocialMediaDemo";
+			};
+			name = Debug;
+		};
+		A418C7F51BF23C1800A787D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskyPostToSocialMediaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyPostToSocialMediaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskyPostToSocialMediaDemo.app/ZegiestowskyPostToSocialMediaDemo";
+			};
+			name = Release;
+		};
+		A418C7F71BF23C1800A787D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskyPostToSocialMediaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyPostToSocialMediaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskyPostToSocialMediaDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A418C7F81BF23C1800A787D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskyPostToSocialMediaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyPostToSocialMediaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskyPostToSocialMediaDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A418C7C31BF23C1700A787D4 /* Build configuration list for PBXProject "ZegiestowskyPostToSocialMediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A418C7EE1BF23C1800A787D4 /* Debug */,
+				A418C7EF1BF23C1800A787D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A418C7F01BF23C1800A787D4 /* Build configuration list for PBXNativeTarget "ZegiestowskyPostToSocialMediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A418C7F11BF23C1800A787D4 /* Debug */,
+				A418C7F21BF23C1800A787D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A418C7F31BF23C1800A787D4 /* Build configuration list for PBXNativeTarget "ZegiestowskyPostToSocialMediaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A418C7F41BF23C1800A787D4 /* Debug */,
+				A418C7F51BF23C1800A787D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A418C7F61BF23C1800A787D4 /* Build configuration list for PBXNativeTarget "ZegiestowskyPostToSocialMediaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A418C7F71BF23C1800A787D4 /* Debug */,
+				A418C7F81BF23C1800A787D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A418C7C01BF23C1700A787D4 /* Project object */;
+}

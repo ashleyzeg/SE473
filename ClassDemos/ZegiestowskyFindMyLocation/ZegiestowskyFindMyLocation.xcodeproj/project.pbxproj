@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A418C8061BF243CA00A787D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418C8051BF243CA00A787D4 /* AppDelegate.swift */; };
+		A418C8081BF243CA00A787D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418C8071BF243CA00A787D4 /* ViewController.swift */; };
+		A418C80B1BF243CA00A787D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A418C8091BF243CA00A787D4 /* Main.storyboard */; };
+		A418C80D1BF243CA00A787D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A418C80C1BF243CA00A787D4 /* Assets.xcassets */; };
+		A418C8101BF243CA00A787D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A418C80E1BF243CA00A787D4 /* LaunchScreen.storyboard */; };
+		A418C81B1BF243CA00A787D4 /* ZegiestowskyFindMyLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418C81A1BF243CA00A787D4 /* ZegiestowskyFindMyLocationTests.swift */; };
+		A418C8261BF243CA00A787D4 /* ZegiestowskyFindMyLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418C8251BF243CA00A787D4 /* ZegiestowskyFindMyLocationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A418C8171BF243CA00A787D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A418C7FA1BF243CA00A787D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A418C8011BF243CA00A787D4;
+			remoteInfo = ZegiestowskyFindMyLocation;
+		};
+		A418C8221BF243CA00A787D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A418C7FA1BF243CA00A787D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A418C8011BF243CA00A787D4;
+			remoteInfo = ZegiestowskyFindMyLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A418C8021BF243CA00A787D4 /* ZegiestowskyFindMyLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZegiestowskyFindMyLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A418C8051BF243CA00A787D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A418C8071BF243CA00A787D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A418C80A1BF243CA00A787D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A418C80C1BF243CA00A787D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A418C80F1BF243CA00A787D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A418C8111BF243CA00A787D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A418C8161BF243CA00A787D4 /* ZegiestowskyFindMyLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskyFindMyLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A418C81A1BF243CA00A787D4 /* ZegiestowskyFindMyLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskyFindMyLocationTests.swift; sourceTree = "<group>"; };
+		A418C81C1BF243CA00A787D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A418C8211BF243CA00A787D4 /* ZegiestowskyFindMyLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskyFindMyLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A418C8251BF243CA00A787D4 /* ZegiestowskyFindMyLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskyFindMyLocationUITests.swift; sourceTree = "<group>"; };
+		A418C8271BF243CA00A787D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A418C7FF1BF243CA00A787D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418C8131BF243CA00A787D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418C81E1BF243CA00A787D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A418C7F91BF243CA00A787D4 = {
+			isa = PBXGroup;
+			children = (
+				A418C8041BF243CA00A787D4 /* ZegiestowskyFindMyLocation */,
+				A418C8191BF243CA00A787D4 /* ZegiestowskyFindMyLocationTests */,
+				A418C8241BF243CA00A787D4 /* ZegiestowskyFindMyLocationUITests */,
+				A418C8031BF243CA00A787D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A418C8031BF243CA00A787D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A418C8021BF243CA00A787D4 /* ZegiestowskyFindMyLocation.app */,
+				A418C8161BF243CA00A787D4 /* ZegiestowskyFindMyLocationTests.xctest */,
+				A418C8211BF243CA00A787D4 /* ZegiestowskyFindMyLocationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A418C8041BF243CA00A787D4 /* ZegiestowskyFindMyLocation */ = {
+			isa = PBXGroup;
+			children = (
+				A418C8051BF243CA00A787D4 /* AppDelegate.swift */,
+				A418C8071BF243CA00A787D4 /* ViewController.swift */,
+				A418C8091BF243CA00A787D4 /* Main.storyboard */,
+				A418C80C1BF243CA00A787D4 /* Assets.xcassets */,
+				A418C80E1BF243CA00A787D4 /* LaunchScreen.storyboard */,
+				A418C8111BF243CA00A787D4 /* Info.plist */,
+			);
+			path = ZegiestowskyFindMyLocation;
+			sourceTree = "<group>";
+		};
+		A418C8191BF243CA00A787D4 /* ZegiestowskyFindMyLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A418C81A1BF243CA00A787D4 /* ZegiestowskyFindMyLocationTests.swift */,
+				A418C81C1BF243CA00A787D4 /* Info.plist */,
+			);
+			path = ZegiestowskyFindMyLocationTests;
+			sourceTree = "<group>";
+		};
+		A418C8241BF243CA00A787D4 /* ZegiestowskyFindMyLocationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A418C8251BF243CA00A787D4 /* ZegiestowskyFindMyLocationUITests.swift */,
+				A418C8271BF243CA00A787D4 /* Info.plist */,
+			);
+			path = ZegiestowskyFindMyLocationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A418C8011BF243CA00A787D4 /* ZegiestowskyFindMyLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A418C82A1BF243CA00A787D4 /* Build configuration list for PBXNativeTarget "ZegiestowskyFindMyLocation" */;
+			buildPhases = (
+				A418C7FE1BF243CA00A787D4 /* Sources */,
+				A418C7FF1BF243CA00A787D4 /* Frameworks */,
+				A418C8001BF243CA00A787D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZegiestowskyFindMyLocation;
+			productName = ZegiestowskyFindMyLocation;
+			productReference = A418C8021BF243CA00A787D4 /* ZegiestowskyFindMyLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A418C8151BF243CA00A787D4 /* ZegiestowskyFindMyLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A418C82D1BF243CA00A787D4 /* Build configuration list for PBXNativeTarget "ZegiestowskyFindMyLocationTests" */;
+			buildPhases = (
+				A418C8121BF243CA00A787D4 /* Sources */,
+				A418C8131BF243CA00A787D4 /* Frameworks */,
+				A418C8141BF243CA00A787D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A418C8181BF243CA00A787D4 /* PBXTargetDependency */,
+			);
+			name = ZegiestowskyFindMyLocationTests;
+			productName = ZegiestowskyFindMyLocationTests;
+			productReference = A418C8161BF243CA00A787D4 /* ZegiestowskyFindMyLocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A418C8201BF243CA00A787D4 /* ZegiestowskyFindMyLocationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A418C8301BF243CA00A787D4 /* Build configuration list for PBXNativeTarget "ZegiestowskyFindMyLocationUITests" */;
+			buildPhases = (
+				A418C81D1BF243CA00A787D4 /* Sources */,
+				A418C81E1BF243CA00A787D4 /* Frameworks */,
+				A418C81F1BF243CA00A787D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A418C8231BF243CA00A787D4 /* PBXTargetDependency */,
+			);
+			name = ZegiestowskyFindMyLocationUITests;
+			productName = ZegiestowskyFindMyLocationUITests;
+			productReference = A418C8211BF243CA00A787D4 /* ZegiestowskyFindMyLocationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A418C7FA1BF243CA00A787D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Zegiestowsky, Ashley";
+				TargetAttributes = {
+					A418C8011BF243CA00A787D4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A418C8151BF243CA00A787D4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A418C8011BF243CA00A787D4;
+					};
+					A418C8201BF243CA00A787D4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A418C8011BF243CA00A787D4;
+					};
+				};
+			};
+			buildConfigurationList = A418C7FD1BF243CA00A787D4 /* Build configuration list for PBXProject "ZegiestowskyFindMyLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A418C7F91BF243CA00A787D4;
+			productRefGroup = A418C8031BF243CA00A787D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A418C8011BF243CA00A787D4 /* ZegiestowskyFindMyLocation */,
+				A418C8151BF243CA00A787D4 /* ZegiestowskyFindMyLocationTests */,
+				A418C8201BF243CA00A787D4 /* ZegiestowskyFindMyLocationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A418C8001BF243CA00A787D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A418C8101BF243CA00A787D4 /* LaunchScreen.storyboard in Resources */,
+				A418C80D1BF243CA00A787D4 /* Assets.xcassets in Resources */,
+				A418C80B1BF243CA00A787D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418C8141BF243CA00A787D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418C81F1BF243CA00A787D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A418C7FE1BF243CA00A787D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A418C8081BF243CA00A787D4 /* ViewController.swift in Sources */,
+				A418C8061BF243CA00A787D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418C8121BF243CA00A787D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A418C81B1BF243CA00A787D4 /* ZegiestowskyFindMyLocationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418C81D1BF243CA00A787D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A418C8261BF243CA00A787D4 /* ZegiestowskyFindMyLocationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A418C8181BF243CA00A787D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A418C8011BF243CA00A787D4 /* ZegiestowskyFindMyLocation */;
+			targetProxy = A418C8171BF243CA00A787D4 /* PBXContainerItemProxy */;
+		};
+		A418C8231BF243CA00A787D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A418C8011BF243CA00A787D4 /* ZegiestowskyFindMyLocation */;
+			targetProxy = A418C8221BF243CA00A787D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A418C8091BF243CA00A787D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A418C80A1BF243CA00A787D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A418C80E1BF243CA00A787D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A418C80F1BF243CA00A787D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A418C8281BF243CA00A787D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A418C8291BF243CA00A787D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A418C82B1BF243CA00A787D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZegiestowskyFindMyLocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyFindMyLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A418C82C1BF243CA00A787D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZegiestowskyFindMyLocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyFindMyLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A418C82E1BF243CA00A787D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskyFindMyLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyFindMyLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskyFindMyLocation.app/ZegiestowskyFindMyLocation";
+			};
+			name = Debug;
+		};
+		A418C82F1BF243CA00A787D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskyFindMyLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyFindMyLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskyFindMyLocation.app/ZegiestowskyFindMyLocation";
+			};
+			name = Release;
+		};
+		A418C8311BF243CA00A787D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskyFindMyLocationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyFindMyLocationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskyFindMyLocation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A418C8321BF243CA00A787D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskyFindMyLocationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyFindMyLocationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskyFindMyLocation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A418C7FD1BF243CA00A787D4 /* Build configuration list for PBXProject "ZegiestowskyFindMyLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A418C8281BF243CA00A787D4 /* Debug */,
+				A418C8291BF243CA00A787D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A418C82A1BF243CA00A787D4 /* Build configuration list for PBXNativeTarget "ZegiestowskyFindMyLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A418C82B1BF243CA00A787D4 /* Debug */,
+				A418C82C1BF243CA00A787D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A418C82D1BF243CA00A787D4 /* Build configuration list for PBXNativeTarget "ZegiestowskyFindMyLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A418C82E1BF243CA00A787D4 /* Debug */,
+				A418C82F1BF243CA00A787D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A418C8301BF243CA00A787D4 /* Build configuration list for PBXNativeTarget "ZegiestowskyFindMyLocationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A418C8311BF243CA00A787D4 /* Debug */,
+				A418C8321BF243CA00A787D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A418C7FA1BF243CA00A787D4 /* Project object */;
+}

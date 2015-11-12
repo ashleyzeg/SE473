@@ -8,11 +8,24 @@
 
 import UIKit
 import CoreLocation
+import MapKit
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
     
     let locationManager = CLLocationManager()
 
+    @IBOutlet weak var mapView: MKMapView!
+    
+    @IBAction func zoomIn(sender: AnyObject) {
+        //set up th map's region to zoom in
+        let spanX = 0.007
+        let spanY = 0.007
+        
+        let newRegion = MKCoordinateRegion(center: mapView.userLocation.coordinate, span: MKCoordinateSpanMake(spanX, spanY))
+        
+        mapView.setRegion(newRegion, animated: true)
+    }
+    
     @IBAction func displayLocation(sender: AnyObject) {
         
         //set the class as delegate for locationManager
@@ -26,6 +39,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         //start receiving location updates from CoreLocation
         locationManager.startUpdatingLocation()
+        
+        //set up the map view
+        mapView.delegate = self
+        mapView.mapType = MKMapType.Standard
+        mapView.showsUserLocation = true
+
     }
     
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -55,6 +74,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.startUpdatingLocation()
             
             let locality = (containsPlacemark.locality != nil) ? containsPlacemark.locality : ""
+            let postalCode = (containsPlacemark.postalCode != nil) ? containsPlacemark.postalCode : ""
+            let administrativeArea = (containsPlacemark.administrativeArea != nil) ? containsPlacemark.administrativeArea : ""
+            let country = (containsPlacemark.country != nil) ? containsPlacemark.country : ""
+            
+            locationDetails.text = "\(locality!) \n \(postalCode!) \n \(administrativeArea!) \n \(country!) \n latitude: \(containsPlacemark.location!.coordinate.latitude) \n longitude: \(containsPlacemark.location!.coordinate.longitude)"
             
         }
         

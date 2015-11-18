@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4917F0D1BFC0C9600194991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4917F0C1BFC0C9600194991 /* AppDelegate.swift */; };
+		A4917F121BFC0C9600194991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4917F101BFC0C9600194991 /* Main.storyboard */; };
+		A4917F141BFC0C9600194991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4917F131BFC0C9600194991 /* Assets.xcassets */; };
+		A4917F171BFC0C9600194991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4917F151BFC0C9600194991 /* LaunchScreen.storyboard */; };
+		A4917F221BFC0C9700194991 /* ZegiestowskyRecipeBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4917F211BFC0C9700194991 /* ZegiestowskyRecipeBookTests.swift */; };
+		A4917F2D1BFC0C9700194991 /* ZegiestowskyRecipeBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4917F2C1BFC0C9700194991 /* ZegiestowskyRecipeBookUITests.swift */; };
+		A4917F3C1BFC118A00194991 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F3B1BFC118900194991 /* Bolts.framework */; };
+		A4917F3E1BFC11A000194991 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F3D1BFC11A000194991 /* Parse.framework */; };
+		A4917F441BFC128C00194991 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F3F1BFC128C00194991 /* ParseCrashReporting.framework */; };
+		A4917F451BFC128C00194991 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F401BFC128C00194991 /* ParseFacebookUtils.framework */; };
+		A4917F461BFC128C00194991 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F411BFC128C00194991 /* ParseFacebookUtilsV4.framework */; };
+		A4917F471BFC128C00194991 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F421BFC128C00194991 /* ParseTwitterUtils.framework */; };
+		A4917F481BFC128C00194991 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F431BFC128C00194991 /* ParseUI.framework */; };
+		A4917F4A1BFC131700194991 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F491BFC131700194991 /* AudioToolbox.framework */; };
+		A4917F4C1BFC132000194991 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F4B1BFC132000194991 /* CFNetwork.framework */; };
+		A4917F4E1BFC132800194991 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F4D1BFC132800194991 /* CoreGraphics.framework */; };
+		A4917F501BFC132F00194991 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F4F1BFC132F00194991 /* CoreLocation.framework */; };
+		A4917F521BFC133600194991 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F511BFC133600194991 /* QuartzCore.framework */; };
+		A4917F541BFC133E00194991 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F531BFC133E00194991 /* Security.framework */; };
+		A4917F561BFC134500194991 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F551BFC134500194991 /* StoreKit.framework */; };
+		A4917F581BFC134F00194991 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F571BFC134F00194991 /* SystemConfiguration.framework */; };
+		A4917F5A1BFC135600194991 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F591BFC135600194991 /* libz.tbd */; };
+		A4917F5C1BFC136100194991 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F5B1BFC136100194991 /* libsqlite3.tbd */; };
+		A4917F5E1BFC140800194991 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F5D1BFC140800194991 /* MobileCoreServices.framework */; };
+		A4917F601BFC146C00194991 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F5F1BFC146C00194991 /* libz.1.dylib */; };
+		A4917F621BFC14FC00194991 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4917F611BFC14FC00194991 /* libsqlite3.dylib */; };
+		A4917F661BFC197500194991 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4917F651BFC197500194991 /* TableViewController.swift */; };
+		A4917F681BFC2FA100194991 /* RecipeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4917F671BFC2FA100194991 /* RecipeDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4917F1E1BFC0C9700194991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4917F011BFC0C9500194991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4917F081BFC0C9500194991;
+			remoteInfo = ZegiestowskyRecipeBook;
+		};
+		A4917F291BFC0C9700194991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4917F011BFC0C9500194991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4917F081BFC0C9500194991;
+			remoteInfo = ZegiestowskyRecipeBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4917F091BFC0C9600194991 /* ZegiestowskyRecipeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZegiestowskyRecipeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4917F0C1BFC0C9600194991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4917F111BFC0C9600194991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4917F131BFC0C9600194991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4917F161BFC0C9600194991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4917F181BFC0C9600194991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4917F1D1BFC0C9700194991 /* ZegiestowskyRecipeBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskyRecipeBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4917F211BFC0C9700194991 /* ZegiestowskyRecipeBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskyRecipeBookTests.swift; sourceTree = "<group>"; };
+		A4917F231BFC0C9700194991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4917F281BFC0C9700194991 /* ZegiestowskyRecipeBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZegiestowskyRecipeBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4917F2C1BFC0C9700194991 /* ZegiestowskyRecipeBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZegiestowskyRecipeBookUITests.swift; sourceTree = "<group>"; };
+		A4917F2E1BFC0C9700194991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4917F3B1BFC118900194991 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A4917F3D1BFC11A000194991 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A4917F3F1BFC128C00194991 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		A4917F401BFC128C00194991 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		A4917F411BFC128C00194991 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		A4917F421BFC128C00194991 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		A4917F431BFC128C00194991 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		A4917F491BFC131700194991 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A4917F4B1BFC132000194991 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A4917F4D1BFC132800194991 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4917F4F1BFC132F00194991 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A4917F511BFC133600194991 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A4917F531BFC133E00194991 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A4917F551BFC134500194991 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A4917F571BFC134F00194991 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A4917F591BFC135600194991 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A4917F5B1BFC136100194991 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A4917F5D1BFC140800194991 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A4917F5F1BFC146C00194991 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = /usr/lib/libz.1.dylib; sourceTree = "<absolute>"; };
+		A4917F611BFC14FC00194991 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = /usr/lib/libsqlite3.dylib; sourceTree = "<absolute>"; };
+		A4917F651BFC197500194991 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A4917F671BFC2FA100194991 /* RecipeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4917F061BFC0C9500194991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4917F621BFC14FC00194991 /* libsqlite3.dylib in Frameworks */,
+				A4917F601BFC146C00194991 /* libz.1.dylib in Frameworks */,
+				A4917F5C1BFC136100194991 /* libsqlite3.tbd in Frameworks */,
+				A4917F5A1BFC135600194991 /* libz.tbd in Frameworks */,
+				A4917F5E1BFC140800194991 /* MobileCoreServices.framework in Frameworks */,
+				A4917F581BFC134F00194991 /* SystemConfiguration.framework in Frameworks */,
+				A4917F561BFC134500194991 /* StoreKit.framework in Frameworks */,
+				A4917F541BFC133E00194991 /* Security.framework in Frameworks */,
+				A4917F521BFC133600194991 /* QuartzCore.framework in Frameworks */,
+				A4917F501BFC132F00194991 /* CoreLocation.framework in Frameworks */,
+				A4917F4E1BFC132800194991 /* CoreGraphics.framework in Frameworks */,
+				A4917F4C1BFC132000194991 /* CFNetwork.framework in Frameworks */,
+				A4917F4A1BFC131700194991 /* AudioToolbox.framework in Frameworks */,
+				A4917F3E1BFC11A000194991 /* Parse.framework in Frameworks */,
+				A4917F441BFC128C00194991 /* ParseCrashReporting.framework in Frameworks */,
+				A4917F481BFC128C00194991 /* ParseUI.framework in Frameworks */,
+				A4917F451BFC128C00194991 /* ParseFacebookUtils.framework in Frameworks */,
+				A4917F3C1BFC118A00194991 /* Bolts.framework in Frameworks */,
+				A4917F471BFC128C00194991 /* ParseTwitterUtils.framework in Frameworks */,
+				A4917F461BFC128C00194991 /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4917F1A1BFC0C9700194991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4917F251BFC0C9700194991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4917F001BFC0C9500194991 = {
+			isa = PBXGroup;
+			children = (
+				A4917F0B1BFC0C9600194991 /* ZegiestowskyRecipeBook */,
+				A4917F201BFC0C9700194991 /* ZegiestowskyRecipeBookTests */,
+				A4917F2B1BFC0C9700194991 /* ZegiestowskyRecipeBookUITests */,
+				A4917F0A1BFC0C9600194991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4917F0A1BFC0C9600194991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4917F091BFC0C9600194991 /* ZegiestowskyRecipeBook.app */,
+				A4917F1D1BFC0C9700194991 /* ZegiestowskyRecipeBookTests.xctest */,
+				A4917F281BFC0C9700194991 /* ZegiestowskyRecipeBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4917F0B1BFC0C9600194991 /* ZegiestowskyRecipeBook */ = {
+			isa = PBXGroup;
+			children = (
+				A4917F3A1BFC111E00194991 /* Frameworks */,
+				A4917F0C1BFC0C9600194991 /* AppDelegate.swift */,
+				A4917F651BFC197500194991 /* TableViewController.swift */,
+				A4917F101BFC0C9600194991 /* Main.storyboard */,
+				A4917F131BFC0C9600194991 /* Assets.xcassets */,
+				A4917F151BFC0C9600194991 /* LaunchScreen.storyboard */,
+				A4917F181BFC0C9600194991 /* Info.plist */,
+				A4917F671BFC2FA100194991 /* RecipeDetailsViewController.swift */,
+			);
+			path = ZegiestowskyRecipeBook;
+			sourceTree = "<group>";
+		};
+		A4917F201BFC0C9700194991 /* ZegiestowskyRecipeBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4917F211BFC0C9700194991 /* ZegiestowskyRecipeBookTests.swift */,
+				A4917F231BFC0C9700194991 /* Info.plist */,
+			);
+			path = ZegiestowskyRecipeBookTests;
+			sourceTree = "<group>";
+		};
+		A4917F2B1BFC0C9700194991 /* ZegiestowskyRecipeBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4917F2C1BFC0C9700194991 /* ZegiestowskyRecipeBookUITests.swift */,
+				A4917F2E1BFC0C9700194991 /* Info.plist */,
+			);
+			path = ZegiestowskyRecipeBookUITests;
+			sourceTree = "<group>";
+		};
+		A4917F3A1BFC111E00194991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4917F5B1BFC136100194991 /* libsqlite3.tbd */,
+				A4917F591BFC135600194991 /* libz.tbd */,
+				A4917F611BFC14FC00194991 /* libsqlite3.dylib */,
+				A4917F5F1BFC146C00194991 /* libz.1.dylib */,
+				A4917F5D1BFC140800194991 /* MobileCoreServices.framework */,
+				A4917F571BFC134F00194991 /* SystemConfiguration.framework */,
+				A4917F551BFC134500194991 /* StoreKit.framework */,
+				A4917F531BFC133E00194991 /* Security.framework */,
+				A4917F511BFC133600194991 /* QuartzCore.framework */,
+				A4917F4F1BFC132F00194991 /* CoreLocation.framework */,
+				A4917F4D1BFC132800194991 /* CoreGraphics.framework */,
+				A4917F4B1BFC132000194991 /* CFNetwork.framework */,
+				A4917F491BFC131700194991 /* AudioToolbox.framework */,
+				A4917F3B1BFC118900194991 /* Bolts.framework */,
+				A4917F3D1BFC11A000194991 /* Parse.framework */,
+				A4917F3F1BFC128C00194991 /* ParseCrashReporting.framework */,
+				A4917F401BFC128C00194991 /* ParseFacebookUtils.framework */,
+				A4917F411BFC128C00194991 /* ParseFacebookUtilsV4.framework */,
+				A4917F421BFC128C00194991 /* ParseTwitterUtils.framework */,
+				A4917F431BFC128C00194991 /* ParseUI.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4917F081BFC0C9500194991 /* ZegiestowskyRecipeBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4917F311BFC0C9700194991 /* Build configuration list for PBXNativeTarget "ZegiestowskyRecipeBook" */;
+			buildPhases = (
+				A4917F051BFC0C9500194991 /* Sources */,
+				A4917F061BFC0C9500194991 /* Frameworks */,
+				A4917F071BFC0C9500194991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZegiestowskyRecipeBook;
+			productName = ZegiestowskyRecipeBook;
+			productReference = A4917F091BFC0C9600194991 /* ZegiestowskyRecipeBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4917F1C1BFC0C9700194991 /* ZegiestowskyRecipeBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4917F341BFC0C9700194991 /* Build configuration list for PBXNativeTarget "ZegiestowskyRecipeBookTests" */;
+			buildPhases = (
+				A4917F191BFC0C9700194991 /* Sources */,
+				A4917F1A1BFC0C9700194991 /* Frameworks */,
+				A4917F1B1BFC0C9700194991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4917F1F1BFC0C9700194991 /* PBXTargetDependency */,
+			);
+			name = ZegiestowskyRecipeBookTests;
+			productName = ZegiestowskyRecipeBookTests;
+			productReference = A4917F1D1BFC0C9700194991 /* ZegiestowskyRecipeBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4917F271BFC0C9700194991 /* ZegiestowskyRecipeBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4917F371BFC0C9700194991 /* Build configuration list for PBXNativeTarget "ZegiestowskyRecipeBookUITests" */;
+			buildPhases = (
+				A4917F241BFC0C9700194991 /* Sources */,
+				A4917F251BFC0C9700194991 /* Frameworks */,
+				A4917F261BFC0C9700194991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4917F2A1BFC0C9700194991 /* PBXTargetDependency */,
+			);
+			name = ZegiestowskyRecipeBookUITests;
+			productName = ZegiestowskyRecipeBookUITests;
+			productReference = A4917F281BFC0C9700194991 /* ZegiestowskyRecipeBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4917F011BFC0C9500194991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Zegiestowsky, Ashley";
+				TargetAttributes = {
+					A4917F081BFC0C9500194991 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A4917F1C1BFC0C9700194991 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A4917F081BFC0C9500194991;
+					};
+					A4917F271BFC0C9700194991 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A4917F081BFC0C9500194991;
+					};
+				};
+			};
+			buildConfigurationList = A4917F041BFC0C9500194991 /* Build configuration list for PBXProject "ZegiestowskyRecipeBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4917F001BFC0C9500194991;
+			productRefGroup = A4917F0A1BFC0C9600194991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4917F081BFC0C9500194991 /* ZegiestowskyRecipeBook */,
+				A4917F1C1BFC0C9700194991 /* ZegiestowskyRecipeBookTests */,
+				A4917F271BFC0C9700194991 /* ZegiestowskyRecipeBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4917F071BFC0C9500194991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4917F171BFC0C9600194991 /* LaunchScreen.storyboard in Resources */,
+				A4917F141BFC0C9600194991 /* Assets.xcassets in Resources */,
+				A4917F121BFC0C9600194991 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4917F1B1BFC0C9700194991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4917F261BFC0C9700194991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4917F051BFC0C9500194991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4917F0D1BFC0C9600194991 /* AppDelegate.swift in Sources */,
+				A4917F681BFC2FA100194991 /* RecipeDetailsViewController.swift in Sources */,
+				A4917F661BFC197500194991 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4917F191BFC0C9700194991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4917F221BFC0C9700194991 /* ZegiestowskyRecipeBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4917F241BFC0C9700194991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4917F2D1BFC0C9700194991 /* ZegiestowskyRecipeBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4917F1F1BFC0C9700194991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4917F081BFC0C9500194991 /* ZegiestowskyRecipeBook */;
+			targetProxy = A4917F1E1BFC0C9700194991 /* PBXContainerItemProxy */;
+		};
+		A4917F2A1BFC0C9700194991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4917F081BFC0C9500194991 /* ZegiestowskyRecipeBook */;
+			targetProxy = A4917F291BFC0C9700194991 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4917F101BFC0C9600194991 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4917F111BFC0C9600194991 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4917F151BFC0C9600194991 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4917F161BFC0C9600194991 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4917F2F1BFC0C9700194991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4917F301BFC0C9700194991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4917F321BFC0C9700194991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ZegiestowskyRecipeBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyRecipeBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4917F331BFC0C9700194991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ZegiestowskyRecipeBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyRecipeBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4917F351BFC0C9700194991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskyRecipeBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyRecipeBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskyRecipeBook.app/ZegiestowskyRecipeBook";
+			};
+			name = Debug;
+		};
+		A4917F361BFC0C9700194991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZegiestowskyRecipeBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyRecipeBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZegiestowskyRecipeBook.app/ZegiestowskyRecipeBook";
+			};
+			name = Release;
+		};
+		A4917F381BFC0C9700194991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskyRecipeBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyRecipeBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskyRecipeBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A4917F391BFC0C9700194991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZegiestowskyRecipeBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Butler.ZegiestowskyRecipeBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZegiestowskyRecipeBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4917F041BFC0C9500194991 /* Build configuration list for PBXProject "ZegiestowskyRecipeBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4917F2F1BFC0C9700194991 /* Debug */,
+				A4917F301BFC0C9700194991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4917F311BFC0C9700194991 /* Build configuration list for PBXNativeTarget "ZegiestowskyRecipeBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4917F321BFC0C9700194991 /* Debug */,
+				A4917F331BFC0C9700194991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4917F341BFC0C9700194991 /* Build configuration list for PBXNativeTarget "ZegiestowskyRecipeBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4917F351BFC0C9700194991 /* Debug */,
+				A4917F361BFC0C9700194991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4917F371BFC0C9700194991 /* Build configuration list for PBXNativeTarget "ZegiestowskyRecipeBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4917F381BFC0C9700194991 /* Debug */,
+				A4917F391BFC0C9700194991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4917F011BFC0C9500194991 /* Project object */;
+}
